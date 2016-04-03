@@ -2,7 +2,7 @@
 ###### Christy Madden, G00214065
 
 ## Introduction
-Give a summary here of what your project is about.
+This project involves creating a graph database with Neo4J and populating it with the Irish constituencies and the candidates that ran in each constituency. 
 
 ## Database
 Explain how you created your database, and how information is represented in it.
