@@ -8,5 +8,5 @@ CREATE (a:Party { Name : 'Fine Gael', Leader : 'Enda Kenny', Founded : '1933', P
 	   (h:Party { Name : 'Workers and Unemployed Action', Leader : 'Séamus Healy', Founded : '1985', Position : 'Left-wing' }),
 	   (i:Party { Name : 'Green Party', Leader : 'Eamon Ryan', Founded : '1981', Position : 'Centre-left' }),
 	   (j:Party { Name : 'Green Party', Leader : 'Eamon Ryan', Founded : '1981', Position : 'Centre-left' }),
-	   (k:Party { Name : 'Workers' Party', Leader : 'Michael Donnelly', Founded : '1970', Position : 'Far-left' }),
+	   (k:Party { Name : 'Workers Party', Leader : 'Michael Donnelly', Founded : '1970', Position : 'Far-left' }),
 	   (l:Party { Name : 'Republican Sinn Féin', Leader : 'Des Dalton', Founded : '1986', Position : 'Left-wing' })
