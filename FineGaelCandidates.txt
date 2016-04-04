@@ -1,0 +1,1 @@
+CREATE (a:Candidate { Name : 'John Paul Phelan', Age : '37', Elected : 'Yes' })-[:Belongs To]->(A { Name : 'Fine Gael'})
