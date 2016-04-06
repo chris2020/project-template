@@ -1,0 +1,27 @@
+CREATE (a1:Candidate { Name : 'Kathleen Funchion', Age : '34', Elected : 'Yes', Gender : 'Female' }),						CARLOW-KILKENNY
+	   (a2:Candidate { Name : 'Caoimhghín O Caoláin', Age : '62', Elected : 'Yes', Gender : 'Male' }),						CAVAN-MONAGHAN
+	   (a3:Candidate { Name : 'Kathryn Reilly', Age : '27', Elected : 'No', Gender : 'Female' }),							CAVAN-MONAGHAN
+	   (a4:Candidate { Name : 'Noeleen Moran', Age : '38', Elected : 'No', Gender : 'Female' }),							CLARE				
+	   (a5:Candidate { Name : 'Pat Buckley', Age : '47', Elected : 'Yes', Gender : 'Male' }),								CORK EAST
+	   (a6:Candidate { Name : 'Jonathan O'Brien', Age : '43', Elected : 'Yes', Gender : 'Male' }),							CORK NORTH-CENTRAL
+	   (a7:Candidate { Name : 'Thomas Gould', Age : '58', Elected : 'No', Gender : 'Male' }),								CORK NORTH-CENTRAL
+	   (a8:Candidate { Name : 'Nigel Dennehy', Age : '27', Elected : 'No', Gender : 'Male' }),								CORK NORTH-WEST
+	   (a9:Candidate { Name : 'Donnchadh O Laoghaire', Age : '26', Elected : 'Yes', Gender : 'Male' }),						CORK SOUTH-CENTRAL
+	   (a10:Candidate { Name : 'Rachel McCarthy', Age : '32', Elected : 'No', Gender : 'Female' }),							CORK SOUTH-WEST
+	   (a11:Candidate { Name : 'Pearse Doherty', Age : '38', Elected : 'Yes', Gender : 'Male' }),							DONEGAL
+	   (a12:Candidate { Name : 'Gary Doherty', Age : '33', Elected : 'No', Gender : 'Male' }),								DONEGAL
+	   (a13:Candidate { Name : 'Padraig Mac Lochlainn', Age : '42', Elected : 'Yes', Gender : 'Male' }),					DONEGAL
+	   (a14:Candidate { Name : 'Denise Mitchell', Age : '45', Elected : 'Yes', Gender : 'Female' }),						DUBLIN BAY NORTH
+	   (a15:Candidate { Name : 'Mícheál Mac Donncha', Age : '51', Elected : 'No', Gender : 'Male' }),						DUBLIN BAY NORTH
+	   (a16:Candidate { Name : 'Chris Andrews', Age : '51', Elected : 'No', Gender : 'Male' }),								DUBLIN BAY SOUTH
+	   (a17:Candidate { Name : 'Mary Lou McDonald', Age : '46', Elected : 'Yes', Gender : 'Female' }),						DUBLIN CENTRAL
+	   (a18:Candidate { Name : 'Louise O'Reilly', Age : '42', Elected : 'Yes', Gender : 'Female' }),						DUBLIN FINGAL
+	   (a19:Candidate { Name : 'Eoin O Broin', Age : '44', Elected : 'Yes', Gender : 'Male' }),								DUBLIN MID-WEST
+	   (a20:Candidate { Name : 'Dessie Ellis', Age : '62', Elected : 'Yes', Gender : 'Male' }),								DUBLIN NORTH-WEST
+	   (a21:Candidate { Name : 'Cathleen Carney Boud', Age : '37', Elected : 'No', Gender : 'Female' }),					DUBLIN NORTH-WEST
+	   (a22:Candidate { Name : 'Sorcha Nic Cormaic', Age : '42', Elected : 'No', Gender : 'Female' }),						DUBLIN RATHDOWN
+	   (a23:Candidate { Name : 'Aengus O Snodaigh', Age : '51', Elected : 'Yes', Gender : 'Male' }),						DUBLIN SOUTH-CENTRAL
+	   (a24:Candidate { Name : 'Máire Devine', Age : '52', Elected : 'No', Gender : 'Female' }),							DUBLIN SOUTH-CENTRAL
+	   (a25:Candidate { Name : 'Seán Crowe', Age : '58', Elected : 'Yes', Gender : 'Male' }),								DUBLIN SOUTH-WEST
+	   (a26:Candidate { Name : 'Sarah Holland', Age : '37', Elected : 'No', Gender : 'Female' }),							DUBLIN SOUTH-WEST
+	   (a27:Candidate { Name : 'Paul Donnelly', Age : '47', Elected : 'No', Gender : 'Male' }),								DUBLIN WEST
