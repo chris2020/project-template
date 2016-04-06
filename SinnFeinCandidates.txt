@@ -25,3 +25,26 @@ CREATE (a1:Candidate { Name : 'Kathleen Funchion', Age : '34', Elected : 'Yes', 
 	   (a25:Candidate { Name : 'Seán Crowe', Age : '58', Elected : 'Yes', Gender : 'Male' }),								DUBLIN SOUTH-WEST
 	   (a26:Candidate { Name : 'Sarah Holland', Age : '37', Elected : 'No', Gender : 'Female' }),							DUBLIN SOUTH-WEST
 	   (a27:Candidate { Name : 'Paul Donnelly', Age : '47', Elected : 'No', Gender : 'Male' }),								DUBLIN WEST
+	   (a28:Candidate { Name : 'Shane O'Brien', Age : '30', Elected : 'No', Gender : 'Male' }),								DÚN LAOGHAIRE
+	   (a29:Candidate { Name : 'Annemarie Roche', Age : '36', Elected : 'No', Gender : 'Female' }),							GALWAY EAST
+	   (a30:Candidate { Name : 'Trevor O Clochartaigh', Age : '47', Elected : 'No', Gender : 'Male' }),						GALWAY WEST
+	   (a31:Candidate { Name : 'Martin Ferris', Age : '63', Elected : 'Yes', Gender : 'Male' }),							KERRY
+	   (a32:Candidate { Name : 'Réada Cronin', Age : '51', Elected : 'No', Gender : 'Female' }),							KILDARE NORTH
+	   (a33:Candidate { Name : 'Patricia Ryan', Age : '52', Elected : 'No', Gender : 'Female' }),							KILDARE SOUTH
+	   (a34:Candidate { Name : 'Brian Stanley', Age : '54', Elected : 'Yes', Gender : 'Male' }),							LAOIS
+	   (a35:Candidate { Name : 'Maurice Quinlivan', Age : '48', Elected : 'Yes', Gender : 'Male' }),						LIMERICK CITY
+	   (a36:Candidate { Name : 'Seamus Browne', Age : '45', Elected : 'No', Gender : 'Male' }),								LIMERICK COUNTY
+	   (a37:Candidate { Name : 'Paul Hogan', Age : '32', Elected : 'No', Gender : 'Male' }),								LONGFORD-WESTMEATH
+	   (a38:Candidate { Name : 'Gerry Adams', Age : '67', Elected : 'Yes', Gender : 'Male' }),								LOUTH
+	   (a39:Candidate { Name : 'Imelda Munster', Age : '48', Elected : 'Yes', Gender : 'Female' }),							LOUTH	
+	   (a40:Candidate { Name : 'Rose Conway-Walsh', Age : '42', Elected : 'No', Gender : 'Female' }),						MAYO
+	   (a41:Candidate { Name : 'Darren O'Rourke', Age : '35', Elected : 'No', Gender : 'Male' }),							MEATH EAST
+	   (a42:Candidate { Name : 'Peadar Tóibín', Age : '41', Elected : 'Yes', Gender : 'Male' }),							MEATH WEST
+	   (a43:Candidate { Name : 'Carol Nolan', Age : '36', Elected : 'Yes', Gender : 'Female' }),							OFFALY
+	   (a44:Candidate { Name : 'Claire Kerrane', Age : '23', Elected : 'No', Gender : 'Female' }),							ROSCOMMON-GALWAY
+	   (a45:Candidate { Name : 'Martin Kenny', Age : '46', Elected : 'Yes', Gender : 'Male' }),								SLIGO-LEITRIM
+	   (a46:Candidate { Name : 'Chris MacManus', Age : '42', Elected : 'No', Gender : 'Male' }),							SLIGO-LEITRIM
+	   (a47:Candidate { Name : 'Seamus Morris', Age : '51', Elected : 'No', Gender : 'Male' }),								TIPPERARY
+	   (a48:Candidate { Name : 'David Cullinane', Age : '41', Elected : 'Yes', Gender : 'Male' }),							WATERFORD
+	   (a49:Candidate { Name : 'Johnny Mythen', Age : '57', Elected : 'No', Gender : 'Male' }),								WEXFORD
+	   (a50:Candidate { Name : 'John Brady', Age : '42', Elected : 'Yes', Gender : 'Male' })
