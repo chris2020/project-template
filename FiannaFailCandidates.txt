@@ -38,5 +38,78 @@ CREATE (a1:Candidate { Name : 'Bobby Aylward', Age : '60', Elected : 'Yes', Gend
 	   (a38:Candidate { Name : 'Mary Hoade', Age : '56', Elected : 'No', Gender : 'Female' }),						GALWAY WEST
 	   (a39:Candidate { Name : 'John Brassil', Age : '52', Elected : 'Yes', Gender : 'Male' }),						KERRY
 	   (a40:Candidate { Name : 'Norma Moriarty', Age : '43', Elected : 'No', Gender : 'Female' }),					KERRY
+	   (a41:Candidate { Name : 'Frank O'Rourke', Age : '42', Elected : 'Yes', Gender : 'Male' }),					KILDARE NORTH
+	   (a42:Candidate { Name : 'James Lawless', Age : '39', Elected : 'Yes', Gender : 'Male' }),					KILDARE NORTH
+	   (a43:Candidate { Name : 'Fiona O'Loughlin', Age : '45', Elected : 'Yes', Gender : 'Female' }),				KILDARE SOUTH
+	   (a44:Candidate { Name : 'Seán O Fearghaíl', Age : '55', Elected : 'Yes', Gender : 'Male' }),					KILDARE SOUTH
+	   (a45:Candidate { Name : 'Seán Fleming', Age : '57', Elected : 'Yes', Gender : 'Male' }),						LAOIS
+	   (a46:Candidate { Name : 'Willie O'Dea', Age : '62', Elected : 'Yes', Gender : 'Male' }),						LIMERICK CITY
+	   (a47:Candidate { Name : 'Niall Collins', Age : '42', Elected : 'Yes', Gender : 'Male' }),					LIMERICK COUNTY
+	   (a48:Candidate { Name : 'Robert Troy', Age : '33', Elected : 'Yes', Gender : 'Male' }),						LONGFORD-WESTMEATH
+	   (a49:Candidate { Name : 'Connie Gerety-Quinn', Age : '48', Elected : 'No', Gender : 'Female' }),				LONGFORD-WESTMEATH
+	   (a50:Candidate { Name : 'Declan Breathnach', Age : '57', Elected : 'Yes', Gender : 'Male' }),				LOUTH
+	   (a51:Candidate { Name : 'Emma Coffey', Age : '37', Elected : 'No', Gender : 'Female' }),						LOUTH	
+	   (a52:Candidate { Name : 'Dara Calleary', Age : '42', Elected : 'Yes', Gender : 'Male' }),					MAYO
+	   (a53:Candidate { Name : 'Lisa Chambers', Age : '33', Elected : 'Yes', Gender : 'Female' }),					MAYO	
+	   (a53:Candidate { Name : 'Thomas Byrne', Age : '38', Elected : 'Yes', Gender : 'Male' }),						MEATH EAST
+	   (a53:Candidate { Name : 'Shane Cassells', Age : '37', Elected : 'Yes', Gender : 'Male' }),					MEATH WEST
+	   (a53:Candidate { Name : 'Barry Cowen', Age : '46', Elected : 'Yes', Gender : 'Male' }),						OFFALY
+	   (a53:Candidate { Name : 'Eddie Fitzpatrick', Age : '54', Elected : 'No', Gender : 'Male' }),					OFFALY
+	   (a53:Candidate { Name : 'Eugene Murphy', Age : '55', Elected : 'Yes', Gender : 'Male' }),					ROSCOMMON-GALWAY
+	   (a53:Candidate { Name : 'Shane Curran', Age : '44', Elected : 'No', Gender : 'Male' }),						ROSCOMMON-GALWAY
+	   (a53:Candidate { Name : 'Eamon Scanlon', Age : '61', Elected : 'Yes', Gender : 'Male' }),					SLIGO-LEITRIM
+	   (a53:Candidate { Name : 'Marc MacSharry', Age : '42', Elected : 'Yes', Gender : 'Male' }),					SLIGO-LEITRIM		
+	   (a53:Candidate { Name : 'Paddy O'Rourke', Age : '70', Elected : 'No', Gender : 'Male' }),					SLIGO-LEITRIM
+	   (a53:Candidate { Name : 'Jackie Cahill', Age : '53', Elected : 'Yes', Gender : 'Male' }),					TIPPERARY
+	   (a53:Candidate { Name : 'Michael Smith', Age : '39', Elected : 'No', Gender : 'Male' }),						TIPPERARY
+	   (a53:Candidate { Name : 'Siobhán Ambrose', Age : '40', Elected : 'No', Gender : 'Female' }),					TIPPERARY
+	   (a53:Candidate { Name : 'Mary Butler', Age : '48', Elected : 'Yes', Gender : 'Female' }),					WATERFORD
+	   (a53:Candidate { Name : 'James Browne', Age : '40', Elected : 'Yes', Gender : 'Male' }),						WEXFORD
+	   (a53:Candidate { Name : 'Aoife Byrne', Age : '37', Elected : 'No', Gender : 'Female' }),						WEXFORD
+	   (a53:Candidate { Name : 'Malcolm Byrne', Age : '41', Elected : 'No', Gender : 'Male' }),						WEXFORD
+	   (a53:Candidate { Name : 'Pat Casey', Age : '52', Elected : 'Yes', Gender : 'Male' }),						WICKLOW
+	   (a53:Candidate { Name : 'Jennifer Cuffe', Age : '29', Elected : 'No', Gender : 'Female' })					WICKLOW
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
 	   
 	   
