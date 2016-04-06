@@ -5,7 +5,7 @@ CREATE (a1:Candidate { Name : 'John Paul Phelan', Age : '37', Elected : 'Yes', G
 	   (a5:Candidate { Name : 'Joe O'Reilly', Age : '60', Elected : 'No', Gender : 'Male' }),					CAVAN-MONAGHAN
 	   (a6:Candidate { Name : 'Joe Carey', Age : '40', Elected : 'Yes', Gender : 'Male' }),						CLARE
 	   (a7:Candidate { Name : 'Pat Breen', Age : ' 58', Elected : 'Yes', Gender : 'Male' }),					CLARE
-	   (a8:Candidate { Name : 'Mary Howard', Age : 'NA', Elected : 'No', Gender : 'Female' }),					CLARE
+	   (a8:Candidate { Name : 'Mary Howard', Age : '42', Elected : 'No', Gender : 'Female' }),					CLARE
 	   (a9:Candidate { Name : 'David Stanton', Age : '58', Elected : 'Yes', Gender : 'Male' }),					CORK EAST
 	   (a10:Candidate { Name : 'Noel McCarthy', Age : '53', Elected : 'No', Gender : 'Male' }),					CORK EAST
 	   (a:11Candidate { Name : 'Tom Barry', Age : '46', Elected : 'No', Gender : 'Male' }),						CORK EAST
@@ -20,7 +20,7 @@ CREATE (a1:Candidate { Name : 'John Paul Phelan', Age : '37', Elected : 'Yes', G
 	   (a20:Candidate { Name : 'Joe McHugh', Age : '44', Elected : 'Yes', Gender : 'Male' }),					DONEGAL
 	   (a21:Candidate { Name : 'Paddy Harte', Age : '60', Elected : 'No', Gender : 'Male' }),					DONEGAL
 	   (a22:Candidate { Name : 'Richard Bruton', Age : '62', Elected : 'Yes', Gender : 'Male' }),				DUBLIN BAY NORTH
-	   (a23:Candidate { Name : 'Naoise O Muirí', Age : 'NA', Elected : 'No', Gender : 'Female' }),				DUBLIN BAY NORTH
+	   (a23:Candidate { Name : 'Naoise O Muirí', Age : '40', Elected : 'No', Gender : 'Female' }),				DUBLIN BAY NORTH
 	   (a24:Candidate { Name : 'Stephanie Regan', Age : '57', Elected : 'No', Gender : 'Female' }),				DUBLIN BAY NORTH
 	   (a25:Candidate { Name : 'Eoghan Murphy', Age : '33', Elected : 'Yes', Gender : 'Male' }),				DUBLIN BAY SOUTH
 	   (a26:Candidate { Name : 'Kate O'Connell', Age : '36', Elected : 'Yes', Gender : 'Female' }),				DUBLIN BAY SOUTH
@@ -46,18 +46,18 @@ CREATE (a1:Candidate { Name : 'John Paul Phelan', Age : '37', Elected : 'Yes', G
 	   (a46:Candidate { Name : 'Sean Kyne', Age : '40', Elected : 'Yes', Gender : 'Male' }),					GALWAY WEST
 	   (a47:Candidate { Name : 'John O'Mahony', Age : '62', Elected : 'No', Gender : 'Male' }),					GALWAY WEST
 	   (a48:Candidate { Name : 'Brendan Griffin', Age : '33', Elected : 'Yes', Gender : 'Male' }),				KERRY
-	   (a49:Candidate { Name : 'Grace O'Donnell', Age : 'NA', Elected : 'No', Gender : 'Female' }),				KERRY
+	   (a49:Candidate { Name : 'Grace O'Donnell', Age : '40', Elected : 'No', Gender : 'Female' }),				KERRY
 	   (a50:Candidate { Name : 'Jimmy Deenihan', Age : '63', Elected : 'No', Gender : 'Male' }),				KERRY
 	   (a51:Candidate { Name : 'Bernard Durkan', Age : '70', Elected : 'Yes', Gender : 'Male' }),				KILDARE NORTH
 	   (a52:Candidate { Name : 'Anthony Lawlor', Age : '56', Elected : 'No', Gender : 'Male' }),				KILDARE NORTH
 	   (a53:Candidate { Name : 'Martin Heydon', Age : '37', Elected : 'Yes', Gender : 'Male' }),				KILDARE SOUTH
-	   (a54:Candidate { Name : 'Fiona McLoughlin Healy', Age : 'NA', Elected : 'No', Gender : 'Female' }),		KILDARE SOUTH
+	   (a54:Candidate { Name : 'Fiona McLoughlin Healy', Age : '38', Elected : 'No', Gender : 'Female' }),		KILDARE SOUTH
 	   (a55:Candidate { Name : 'Charlie Flanagan', Age : '59', Elected : 'Yes', Gender : 'Male' }),				LAOIS
 	   (a56:Candidate { Name : 'Thomasina Connell', Age : '33', Elected : 'No', Gender : 'Female' }),			LAOIS
 	   (a58:Candidate { Name : 'Michael Noonan', Age : '72', Elected : 'Yes', Gender : 'Male' }),				LIMERICK CITY
 	   (a59:Candidate { Name : 'Kieran O'Donnell', Age : '52', Elected : 'No', Gender : 'Male' }),				LIMERICK CITY	
 	   (a60:Candidate { Name : 'Patrick O'Donovan', Age : '38', Elected : 'Yes', Gender : 'Male' }),			LIMERICK COUNTY
-	   (a61:Candidate { Name : 'Tom Neville', Age : 'NA', Elected : 'Yes', Gender : 'Male' }),					LIMERICK COUNTY
+	   (a61:Candidate { Name : 'Tom Neville', Age : '38', Elected : 'Yes', Gender : 'Male' }),					LIMERICK COUNTY
 	   (a62:Candidate { Name : 'Peter Burke', Age : '33', Elected : 'Yes', Gender : 'Male' }),					LONGFORD-WESTMEATH
 	   (a63:Candidate { Name : 'Gabrielle McFadden', Age : '48', Elected : 'No', Gender : 'Female' }),			LONGFORD-WESTMEATH
 	   (a64:Candidate { Name : 'James Bannon', Age : '57', Elected : 'No', Gender : 'Male' }),					LONGFORD-WESTMEATH
