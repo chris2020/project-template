@@ -1,50 +1,51 @@
-CREATE (a1:Candidate { Name : 'Kathleen Funchion', Age : '34', Elected : 'Yes', Gender : 'Female' }),						CARLOW-KILKENNY
-	   (a2:Candidate { Name : 'Caoimhghín O Caoláin', Age : '62', Elected : 'Yes', Gender : 'Male' }),						CAVAN-MONAGHAN
-	   (a3:Candidate { Name : 'Kathryn Reilly', Age : '27', Elected : 'No', Gender : 'Female' }),							CAVAN-MONAGHAN
-	   (a4:Candidate { Name : 'Noeleen Moran', Age : '38', Elected : 'No', Gender : 'Female' }),							CLARE				
-	   (a5:Candidate { Name : 'Pat Buckley', Age : '47', Elected : 'Yes', Gender : 'Male' }),								CORK EAST
-	   (a6:Candidate { Name : 'Jonathan O'Brien', Age : '43', Elected : 'Yes', Gender : 'Male' }),							CORK NORTH-CENTRAL
-	   (a7:Candidate { Name : 'Thomas Gould', Age : '58', Elected : 'No', Gender : 'Male' }),								CORK NORTH-CENTRAL
-	   (a8:Candidate { Name : 'Nigel Dennehy', Age : '27', Elected : 'No', Gender : 'Male' }),								CORK NORTH-WEST
-	   (a9:Candidate { Name : 'Donnchadh O Laoghaire', Age : '26', Elected : 'Yes', Gender : 'Male' }),						CORK SOUTH-CENTRAL
-	   (a10:Candidate { Name : 'Rachel McCarthy', Age : '32', Elected : 'No', Gender : 'Female' }),							CORK SOUTH-WEST
-	   (a11:Candidate { Name : 'Pearse Doherty', Age : '38', Elected : 'Yes', Gender : 'Male' }),							DONEGAL
-	   (a12:Candidate { Name : 'Gary Doherty', Age : '33', Elected : 'No', Gender : 'Male' }),								DONEGAL
-	   (a13:Candidate { Name : 'Padraig Mac Lochlainn', Age : '42', Elected : 'Yes', Gender : 'Male' }),					DONEGAL
-	   (a14:Candidate { Name : 'Denise Mitchell', Age : '45', Elected : 'Yes', Gender : 'Female' }),						DUBLIN BAY NORTH
-	   (a15:Candidate { Name : 'Mícheál Mac Donncha', Age : '51', Elected : 'No', Gender : 'Male' }),						DUBLIN BAY NORTH
-	   (a16:Candidate { Name : 'Chris Andrews', Age : '51', Elected : 'No', Gender : 'Male' }),								DUBLIN BAY SOUTH
-	   (a17:Candidate { Name : 'Mary Lou McDonald', Age : '46', Elected : 'Yes', Gender : 'Female' }),						DUBLIN CENTRAL
-	   (a18:Candidate { Name : 'Louise O'Reilly', Age : '42', Elected : 'Yes', Gender : 'Female' }),						DUBLIN FINGAL
-	   (a19:Candidate { Name : 'Eoin O Broin', Age : '44', Elected : 'Yes', Gender : 'Male' }),								DUBLIN MID-WEST
-	   (a20:Candidate { Name : 'Dessie Ellis', Age : '62', Elected : 'Yes', Gender : 'Male' }),								DUBLIN NORTH-WEST
-	   (a21:Candidate { Name : 'Cathleen Carney Boud', Age : '37', Elected : 'No', Gender : 'Female' }),					DUBLIN NORTH-WEST
-	   (a22:Candidate { Name : 'Sorcha Nic Cormaic', Age : '42', Elected : 'No', Gender : 'Female' }),						DUBLIN RATHDOWN
-	   (a23:Candidate { Name : 'Aengus O Snodaigh', Age : '51', Elected : 'Yes', Gender : 'Male' }),						DUBLIN SOUTH-CENTRAL
-	   (a24:Candidate { Name : 'Máire Devine', Age : '52', Elected : 'No', Gender : 'Female' }),							DUBLIN SOUTH-CENTRAL
-	   (a25:Candidate { Name : 'Seán Crowe', Age : '58', Elected : 'Yes', Gender : 'Male' }),								DUBLIN SOUTH-WEST
-	   (a26:Candidate { Name : 'Sarah Holland', Age : '37', Elected : 'No', Gender : 'Female' }),							DUBLIN SOUTH-WEST
-	   (a27:Candidate { Name : 'Paul Donnelly', Age : '47', Elected : 'No', Gender : 'Male' }),								DUBLIN WEST
-	   (a28:Candidate { Name : 'Shane O'Brien', Age : '30', Elected : 'No', Gender : 'Male' }),								DÚN LAOGHAIRE
-	   (a29:Candidate { Name : 'Annemarie Roche', Age : '36', Elected : 'No', Gender : 'Female' }),							GALWAY EAST
-	   (a30:Candidate { Name : 'Trevor O Clochartaigh', Age : '47', Elected : 'No', Gender : 'Male' }),						GALWAY WEST
-	   (a31:Candidate { Name : 'Martin Ferris', Age : '63', Elected : 'Yes', Gender : 'Male' }),							KERRY
-	   (a32:Candidate { Name : 'Réada Cronin', Age : '51', Elected : 'No', Gender : 'Female' }),							KILDARE NORTH
-	   (a33:Candidate { Name : 'Patricia Ryan', Age : '52', Elected : 'No', Gender : 'Female' }),							KILDARE SOUTH
-	   (a34:Candidate { Name : 'Brian Stanley', Age : '54', Elected : 'Yes', Gender : 'Male' }),							LAOIS
-	   (a35:Candidate { Name : 'Maurice Quinlivan', Age : '48', Elected : 'Yes', Gender : 'Male' }),						LIMERICK CITY
-	   (a36:Candidate { Name : 'Seamus Browne', Age : '45', Elected : 'No', Gender : 'Male' }),								LIMERICK COUNTY
-	   (a37:Candidate { Name : 'Paul Hogan', Age : '32', Elected : 'No', Gender : 'Male' }),								LONGFORD-WESTMEATH
-	   (a38:Candidate { Name : 'Gerry Adams', Age : '67', Elected : 'Yes', Gender : 'Male' }),								LOUTH
-	   (a39:Candidate { Name : 'Imelda Munster', Age : '48', Elected : 'Yes', Gender : 'Female' }),							LOUTH	
-	   (a40:Candidate { Name : 'Rose Conway-Walsh', Age : '42', Elected : 'No', Gender : 'Female' }),						MAYO
-	   (a41:Candidate { Name : 'Darren O'Rourke', Age : '35', Elected : 'No', Gender : 'Male' }),							MEATH EAST
-	   (a42:Candidate { Name : 'Peadar Tóibín', Age : '41', Elected : 'Yes', Gender : 'Male' }),							MEATH WEST
-	   (a43:Candidate { Name : 'Carol Nolan', Age : '36', Elected : 'Yes', Gender : 'Female' }),							OFFALY
-	   (a44:Candidate { Name : 'Claire Kerrane', Age : '23', Elected : 'No', Gender : 'Female' }),							ROSCOMMON-GALWAY
-	   (a45:Candidate { Name : 'Martin Kenny', Age : '46', Elected : 'Yes', Gender : 'Male' }),								SLIGO-LEITRIM
-	   (a46:Candidate { Name : 'Chris MacManus', Age : '42', Elected : 'No', Gender : 'Male' }),							SLIGO-LEITRIM
-	   (a47:Candidate { Name : 'Seamus Morris', Age : '51', Elected : 'No', Gender : 'Male' }),								TIPPERARY
-	   (a48:Candidate { Name : 'David Cullinane', Age : '41', Elected : 'Yes', Gender : 'Male' }),							WATERFORD
-	   (a49:Candidate { Name : 'Johnny Mythen', Age : '57', Elected : 'No', Gender : 'Male' }),								WEXFORD
-	   (a50:Candidate { Name : 'John Brady', Age : '42', Elected : 'Yes', Gender : 'Male' })
+CREATE (a1:Candidate { Constituency : carlow-kilkenny, Name : 'Kathleen Funchion', Age : '34', Elected : 'Yes', Gender : 'Female' }),						carlow-kilkenny,
+	   (a2:Candidate { Constituency : cavan-monaghan, Name : 'Caoimhghín O Caoláin', Age : '62', Elected : 'Yes', Gender : 'Male' }),						cavan-monaghan,
+	   (a3:Candidate { Constituency : cavan-monaghan, Name : 'Kathryn Reilly', Age : '27', Elected : 'No', Gender : 'Female' }),							cavan-monaghan,
+	   (a4:Candidate { Constituency : clare, Name : 'Noeleen Moran', Age : '38', Elected : 'No', Gender : 'Female' }),										clare,	
+	   (a5:Candidate { Constituency : cork east, Name : 'Pat Buckley', Age : '47', Elected : 'Yes', Gender : 'Male' }),										cork east,
+	   (a6:Candidate { Constituency : cork north-central, Name : 'Jonathan O'Brien', Age : '43', Elected : 'Yes', Gender : 'Male' }),							cork north-central,
+	   (a7:Candidate { Constituency : cork north-central, Name : 'Thomas Gould', Age : '58', Elected : 'No', Gender : 'Male' }),								cork north-central,
+	   (a8:Candidate { Constituency : cork north-west, Name : 'Nigel Dennehy', Age : '27', Elected : 'No', Gender : 'Male' }),								cork north-west,
+	   (a9:Candidate { Constituency : cork south-central, Name : 'Donnchadh O Laoghaire', Age : '26', Elected : 'Yes', Gender : 'Male' }),						cork south-central,
+	   (a10:Candidate { Constituency : cork south-west, Name : 'Rachel McCarthy', Age : '32', Elected : 'No', Gender : 'Female' }),							cork south-west,
+	   (a11:Candidate { Constituency : donegal, Name : 'Pearse Doherty', Age : '38', Elected : 'Yes', Gender : 'Male' }),									donegal,
+	   (a12:Candidate { Constituency : donegal, Name : 'Gary Doherty', Age : '33', Elected : 'No', Gender : 'Male' }),										donegal,
+	   (a13:Candidate { Constituency : donegal, Name : 'Padraig Mac Lochlainn', Age : '42', Elected : 'Yes', Gender : 'Male' }),							donegal,
+	   (a14:Candidate { Constituency : dublin bay north, Name : 'Denise Mitchell', Age : '45', Elected : 'Yes', Gender : 'Female' }),						dublin bay north,
+	   (a15:Candidate { Constituency : dublin bay north, Name : 'Mícheál Mac Donncha', Age : '51', Elected : 'No', Gender : 'Male' }),						dublin bay north,
+	   (a16:Candidate { Constituency : dublin bay south, Name : 'Chris Andrews', Age : '51', Elected : 'No', Gender : 'Male' }),								dublin bay south,
+	   (a17:Candidate { Constituency : dublin central, Name : 'Mary Lou McDonald', Age : '46', Elected : 'Yes', Gender : 'Female' }),						dublin central,
+	   (a18:Candidate { Constituency : dublin fingal, Name : 'Louise O'Reilly', Age : '42', Elected : 'Yes', Gender : 'Female' }),						dublin fingal,
+	   (a19:Candidate { Constituency : dublin mid-west, Name : 'Eoin O Broin', Age : '44', Elected : 'Yes', Gender : 'Male' }),								dublin mid-west,
+	   (a20:Candidate { Constituency : dublin north-west, Name : 'Dessie Ellis', Age : '62', Elected : 'Yes', Gender : 'Male' }),								dublin north-west,
+	   (a21:Candidate { Constituency : dublin north-west, Name : 'Cathleen Carney Boud', Age : '37', Elected : 'No', Gender : 'Female' }),					dublin north-west,
+	   (a22:Candidate { Constituency : dublin rathdown, Name : 'Sorcha Nic Cormaic', Age : '42', Elected : 'No', Gender : 'Female' }),						dublin rathdown,
+	   (a23:Candidate { Constituency : dublin south-central, Name : 'Aengus O Snodaigh', Age : '51', Elected : 'Yes', Gender : 'Male' }),						dublin south-central,
+	   (a24:Candidate { Constituency : dublin south-central, Name : 'Máire Devine', Age : '52', Elected : 'No', Gender : 'Female' }),							dublin south-central,
+	   (a25:Candidate { Constituency : dublin south-west, Name : 'Seán Crowe', Age : '58', Elected : 'Yes', Gender : 'Male' }),								dublin south-west,
+	   (a26:Candidate { Constituency : dublin south-west, Name : 'Sarah Holland', Age : '37', Elected : 'No', Gender : 'Female' }),							dublin south-west,
+	   (a27:Candidate { Constituency : dublin west, Name : 'Paul Donnelly', Age : '47', Elected : 'No', Gender : 'Male' }),								dublin west,
+	   (a28:Candidate { Constituency : dún laoghaire, Name : 'Shane O'Brien', Age : '30', Elected : 'No', Gender : 'Male' }),								dún laoghaire,
+	   (a29:Candidate { Constituency : galway east, Name : 'Annemarie Roche', Age : '36', Elected : 'No', Gender : 'Female' }),							galway east,
+	   (a30:Candidate { Constituency : galway west, Name : 'Trevor O Clochartaigh', Age : '47', Elected : 'No', Gender : 'Male' }),						galway west,
+	   (a31:Candidate { Constituency : kerry, Name : 'Martin Ferris', Age : '63', Elected : 'Yes', Gender : 'Male' }),									kerry,
+	   (a32:Candidate { Constituency : kildare north, Name : 'Réada Cronin', Age : '51', Elected : 'No', Gender : 'Female' }),							kildare north,
+	   (a33:Candidate { Constituency : kildare south, Name : 'Patricia Ryan', Age : '52', Elected : 'No', Gender : 'Female' }),							kildare south,
+	   (a34:Candidate { Constituency : laois, Name : 'Brian Stanley', Age : '54', Elected : 'Yes', Gender : 'Male' }),									laois,
+	   (a35:Candidate { Constituency : limerick city, Name : 'Maurice Quinlivan', Age : '48', Elected : 'Yes', Gender : 'Male' }),						limerick city,
+	   (a36:Candidate { Constituency : limerick county, Name : 'Seamus Browne', Age : '45', Elected : 'No', Gender : 'Male' }),								limerick county,
+	   (a37:Candidate { Constituency : longford-westmeath, Name : 'Paul Hogan', Age : '32', Elected : 'No', Gender : 'Male' }),								longford-westmeath,
+	   (a38:Candidate { Constituency : louth, Name : 'Gerry Adams', Age : '67', Elected : 'Yes', Gender : 'Male' }),									louth,
+	   (a39:Candidate { Constituency : louth,	 Name : 'Imelda Munster', Age : '48', Elected : 'Yes', Gender : 'Female' }),							louth,	
+	   (a40:Candidate { Constituency : mayo, Name : 'Rose Conway-Walsh', Age : '42', Elected : 'No', Gender : 'Female' }),								mayo,
+	   (a41:Candidate { Constituency : meath east, Name : 'Darren O'Rourke', Age : '35', Elected : 'No', Gender : 'Male' }),							meath east,
+	   (a42:Candidate { Constituency : meath west, Name : 'Peadar Tóibín', Age : '41', Elected : 'Yes', Gender : 'Male' }),								meath west,
+	   (a43:Candidate { Constituency : offaly, Name : 'Carol Nolan', Age : '36', Elected : 'Yes', Gender : 'Female' }),									offaly,
+	   (a44:Candidate { Constituency : roscommon-galway, Name : 'Claire Kerrane', Age : '23', Elected : 'No', Gender : 'Female' }),							roscommon-galway,
+	   (a45:Candidate { Constituency : sligo-leitrim, Name : 'Martin Kenny', Age : '46', Elected : 'Yes', Gender : 'Male' }),								sligo-leitrim,
+	   (a46:Candidate { Constituency : sligo-leitrim, Name : 'Chris MacManus', Age : '42', Elected : 'No', Gender : 'Male' }),							sligo-leitrim,
+	   (a47:Candidate { Constituency : tipperary, Name : 'Seamus Morris', Age : '51', Elected : 'No', Gender : 'Male' }),								tipperary,
+	   (a48:Candidate { Constituency : waterford, Name : 'David Cullinane', Age : '41', Elected : 'Yes', Gender : 'Male' }),							waterford,
+	   (a49:Candidate { Constituency : wexford, Name : 'Johnny Mythen', Age : '57', Elected : 'No', Gender : 'Male' }),									wexford,
+	   (a50:Candidate { Constituency : wicklow, Name : 'John Brady', Age : '42', Elected : 'Yes', Gender : 'Male' })									wicklow,
+                       
