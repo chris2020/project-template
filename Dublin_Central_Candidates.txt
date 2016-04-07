@@ -1,0 +1,16 @@
+CREATE (c001:Candidate { name : 'Mary Lou McDonald',	       	    age : '46', elected : 'Yes', gender : 'Female',   constituency : 'Dublin Central', party : 'Sinn Féin' }),
+	   (c001:Candidate { name : 'Mary Fitzpatrick',	       	    	age : '46', elected : 'No',  gender : 'Female',   constituency : 'Dublin Central', party : 'Fianna Fáil' }),
+	   (c001:Candidate { name : 'Paschal Donohoe',	       	    	age : '41', elected : 'Yes', gender : 'Male',     constituency : 'Dublin Central', party : 'Fine Gael' }),
+	   (c001:Candidate { name : 'Maureen O'Sullivan',	       	    age : '64', elected : 'Yes', gender : 'Female',   constituency : 'Dublin Central', party : 'Independent' }),
+	   (c001:Candidate { name : 'Gary Gannon',	       	   		    age : '28', elected : 'No',  gender : 'Male',     constituency : 'Dublin Central', party : 'Social Democrats' }),
+	   (c001:Candidate { name : 'Christy Burke',	       	   		age : '68', elected : 'No',  gender : 'Male',     constituency : 'Dublin Central', party : 'Independent' }),
+	   (c001:Candidate { name : 'Joe Costello',	       	   			age : '70', elected : 'No',  gender : 'Male',     constituency : 'Dublin Central', party : 'Labour' }),
+	   (c001:Candidate { name : 'Cieran Perry',	       	   			age : '53', elected : 'No',  gender : 'Male',     constituency : 'Dublin Central', party : 'Independent' }),
+	   (c001:Candidate { name : 'Diana O'Dwyer',	       	   		age : '37', elected : 'No',  gender : 'Female',   constituency : 'Dublin Central', party : 'AAA-PBP' }),
+	   (c001:Candidate { name : 'Ian Noel Smyth',	       	   		age : '50', elected : 'No',  gender : 'Male',     constituency : 'Dublin Central', party : 'Green Party' }),
+	   (c001:Candidate { name : 'Jacqui Gilbourne',	       	   		age : '64', elected : 'No',  gender : 'Female',   constituency : 'Dublin Central', party : 'Renua Ireland' }),
+	   (c001:Candidate { name : 'Éilis Ryan',	       	   			age : '31', elected : 'No',  gender : 'Female',   constituency : 'Dublin Central', party : 'Workers' Party' }),
+	   (c001:Candidate { name : 'Cormac McKay',	       	   			age : '35', elected : 'No',  gender : 'Male',     constituency : 'Dublin Central', party : 'Direct Democracy Ireland' }),
+	   (c001:Candidate { name : 'Kerry Guinan',	       	   			age : '23', elected : 'No',  gender : 'Female',   constituency : 'Dublin Central', party : 'Independent' }),
+	   (c001:Candidate { name : 'William D.J. Gorman',	       	   	age : '54', elected : 'No',  gender : 'Male',     constituency : 'Dublin Central', party : 'Independent' })
+	   
