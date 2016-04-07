@@ -1,0 +1,13 @@
+CREATE (c001:Candidate { name : 'Nigel Dennehy', 	        age : '27', elected : 'No',  gender : 'Male',   constituency : 'Cork North-West', party : 'Sinn Féin' }),
+       (c002:Candidate { name : 'Aindrias Moynihan', 	    age : '42', elected : 'Yes', gender : 'Male',   constituency : 'Cork North-West', party : 'Fianna Fáil' }),
+	   (c003:Candidate { name : 'Michael Moynihan', 	    age : '47', elected : 'Yes', gender : 'Male',   constituency : 'Cork North-West', party : 'Fianna Fáil' }),
+	   (c004:Candidate { name : 'Michael Creed', 	    	age : '52', elected : 'Yes', gender : 'Male',   constituency : 'Cork North-West', party : 'Fine Gael' }),
+	   (c005:Candidate { name : 'Áine Collins', 	    	age : '46', elected : 'No',  gender : 'Female', constituency : 'Cork North-West', party : 'Fine Gael' }),
+	   (c006:Candidate { name : 'John Paul O'Shea', 	    age : '32', elected : 'No',  gender : 'Male',   constituency : 'Cork North-West', party : 'Independent' }),
+	   (c007:Candidate { name : 'Diarmuid O'Flynn', 	    age : '62', elected : 'No',  gender : 'Male',   constituency : 'Cork North-West', party : 'Independent' }),
+	   (c008:Candidate { name : 'Jason Fitzgerald', 	    age : '42', elected : 'No',  gender : 'Male',   constituency : 'Cork North-West', party : 'Renua Ireland' }),
+	   (c009:Candidate { name : 'Steven O'Riordan', 	    age : '29', elected : 'No',  gender : 'Male',   constituency : 'Cork North-West', party : 'Independent' }),
+	   (c010:Candidate { name : 'Cormac Manning', 	    	age : '23', elected : 'No',  gender : 'Male',   constituency : 'Cork North-West', party : 'Green Party' }),
+	   (c011:Candidate { name : 'Jerry O'Sullivan', 	    age : '52', elected : 'No',  gender : 'Male',   constituency : 'Cork North-West', party : 'Independent' }),
+	   (c012:Candidate { name : 'Shirley Griffin', 	    	age : '50', elected : 'No',  gender : 'Female', constituency : 'Cork North-West', party : 'Independent' }),
+	   (c013:Candidate { name : 'Michael O'Donnell', 	    age : '75', elected : 'No',  gender : 'Male',   constituency : 'Cork North-West', party : 'Communist Party of Ireland' })
