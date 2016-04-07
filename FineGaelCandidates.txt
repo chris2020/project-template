@@ -53,8 +53,10 @@ CREATE (a1:Candidate { Name : 'John Paul Phelan', Age : '37', Elected : 'Yes', G
 	   (a36:Candidate { Name : 'Colm Brophy', Age : '49', Elected : 'Yes', Gender : 'Male' }),					DUBLIN SOUTH-WEST
 	   (a37:Candidate { Name : 'Anne-Marie Dermody', Age : '46', Elected : 'No', Gender : 'Female' }),			DUBLIN SOUTH-WEST
 	   (a38:Candidate { Name : 'Karen Warren', Age : '50', Elected : 'No', Gender : 'Female' }),				DUBLIN SOUTH-WEST
+	   
 	   (a39:Candidate { Name : 'Leo Varadkar', Age : '36', Elected : 'Yes', Gender : 'Male' }),					DUBLIN WEST
 	   (a40:Candidate { Name : 'Catherine Noone', Age : '39', Elected : 'No', Gender : 'Female' }),				DUBLIN WEST	
+	   
 	   (a41:Candidate { Name : 'Maria Bailey', Age : '39', Elected : 'Yes', Gender : 'Female' }),				DÚN LAOGHAIRE
 	   (a42:Candidate { Name : 'Mary Mitchell-O'Connor', Age : '56', Elected : 'Yes', Gender : 'Female' }),		DÚN LAOGHAIRE
 	   (a43:Candidate { Name : 'Ciarán Cannon', Age : '50', Elected : 'Yes', Gender : 'Male' }),				GALWAY EAST
