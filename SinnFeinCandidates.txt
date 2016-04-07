@@ -1,10 +1,14 @@
 CREATE (a1:Candidate { Constituency : carlow-kilkenny, Name : 'Kathleen Funchion', Age : '34', Elected : 'Yes', Gender : 'Female' }),						carlow-kilkenny,
+
 	   (a2:Candidate { Constituency : cavan-monaghan, Name : 'Caoimhghín O Caoláin', Age : '62', Elected : 'Yes', Gender : 'Male' }),						cavan-monaghan,
 	   (a3:Candidate { Constituency : cavan-monaghan, Name : 'Kathryn Reilly', Age : '27', Elected : 'No', Gender : 'Female' }),							cavan-monaghan,
+	   
 	   (a4:Candidate { Constituency : clare, Name : 'Noeleen Moran', Age : '38', Elected : 'No', Gender : 'Female' }),										clare,	
+	   
 	   (a5:Candidate { Constituency : cork east, Name : 'Pat Buckley', Age : '47', Elected : 'Yes', Gender : 'Male' }),										cork east,
-	   (a6:Candidate { Constituency : cork north-central, Name : 'Jonathan O'Brien', Age : '43', Elected : 'Yes', Gender : 'Male' }),							cork north-central,
-	   (a7:Candidate { Constituency : cork north-central, Name : 'Thomas Gould', Age : '58', Elected : 'No', Gender : 'Male' }),								cork north-central,
+	   
+	   (a6:Candidate { Constituency : cork north-central, Name : 'Jonathan O'Brien', Age : '43', Elected : 'Yes', Gender : 'Male' }),						cork north-central,
+	   (a7:Candidate { Constituency : cork north-central, Name : 'Thomas Gould', Age : '58', Elected : 'No', Gender : 'Male' }),							cork north-central,
 	   (a8:Candidate { Constituency : cork north-west, Name : 'Nigel Dennehy', Age : '27', Elected : 'No', Gender : 'Male' }),								cork north-west,
 	   (a9:Candidate { Constituency : cork south-central, Name : 'Donnchadh O Laoghaire', Age : '26', Elected : 'Yes', Gender : 'Male' }),						cork south-central,
 	   (a10:Candidate { Constituency : cork south-west, Name : 'Rachel McCarthy', Age : '32', Elected : 'No', Gender : 'Female' }),							cork south-west,
