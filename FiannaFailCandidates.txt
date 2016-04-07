@@ -1,32 +1,49 @@
 CREATE (a1:Candidate { Name : 'Bobby Aylward', Age : '60', Elected : 'Yes', Gender : 'Male' }),						CARLOW-KILKENNY
 	   (a2:Candidate { Name : 'John McGuinness', Age : '60', Elected : 'Yes', Gender : 'Male' }),					CARLOW-KILKENNY
 	   (a3:Candidate { Name : 'Jennifer Murnane-O'Connor', Age : '49', Elected : 'No', Gender : 'Female' }),		CARLOW-KILKENNY
+	   
 	   (a4:Candidate { Name : 'Brendan Smith', Age : '59', Elected : 'Yes', Gender : 'Male' }),						CAVAN-MONAGHAN
 	   (a5:Candidate { Name : 'Mike Durkan', Age : '37', Elected : 'No', Gender : 'Male' }),						CAVAN-MONAGHAN
 	   (a6:Candidate { Name : 'Niamh Smyth', Age : '48', Elected : 'Yes', Gender : 'Female' }),						CAVAN-MONAGHAN
+	   
 	   (a7:Candidate { Name : 'Timmy Dooley', Age : '46', Elected : 'Yes', Gender : 'Male' }),						CLARE		
 	   (a8:Candidate { Name : 'Clare Colleran Molloy', Age : '51', Elected : 'No', Gender : 'Female' }),			CLARE
 	   (a9:Candidate { Name : 'Michael McDonagh', Age : '51', Elected : 'No', Gender : 'Male' }),					CLARE
+	   
 	   (a10:Candidate { Name : 'Kevin O'Keefe', Age : '51', Elected : 'Yes', Gender : 'Male' }),					CORK EAST
 	   (a11:Candidate { Name : 'Barbara Ahern', Age : '34', Elected : 'No', Gender : 'Female' }),					CORK EAST
+	   
 	   (a12:Candidate { Name : 'Billy Kelleher', Age : '47', Elected : 'Yes', Gender : 'Male' }),					CORK NORTH-CENTRAL
+	   
 	   (a13:Candidate { Name : 'Aindrias Moynihan', Age : '42', Elected : 'Yes', Gender : 'Male' }),				CORK NORTH-WEST
 	   (a14:Candidate { Name : 'Michael Moynihan', Age : '47', Elected : 'Yes', Gender : 'Male' }),					CORK NORTH-WEST
+	   
 	   (a15:Candidate { Name : 'Michael McGrath', Age : '39', Elected : 'Yes', Gender : 'Male' }),					CORK SOUTH-CENTRAL
 	   (a16:Candidate { Name : 'Micheál Martin', Age : '55', Elected : 'Yes', Gender : 'Male' }),					CORK SOUTH-CENTRAL	
+	   
 	   (a17:Candidate { Name : 'Margaret Murphy-O'Mahony', Age : '48', Elected : 'Yes', Gender : 'Female' }),		CORK SOUTH-WEST
+	   
 	   (a18:Candidate { Name : 'Charlie McConalogue', Age : '38', Elected : 'Yes', Gender : 'Male' }),				DONEGAL
 	   (a19:Candidate { Name : 'Pat Gallagher', Age : '67', Elected : 'Yes', Gender : 'Male' }),					DONEGAL
+	   
 	   (a20:Candidate { Name : 'Seán Haughey', Age : '53', Elected : 'Yes', Gender : 'Male' }),						DUBLIN BAY NORTH
 	   (a21:Candidate { Name : 'Deirdre Heney', Age : '44', Elected : 'No', Gender : 'Female' }),					DUBLIN BAY NORTH
+	   
 	   (a22:Candidate { Name : 'Jim O'Callaghan', Age : '47', Elected : 'Yes', Gender : 'Male' }),					DUBLIN BAY SOUTH
+	   
 	   (a23:Candidate { Name : 'Mary Fitzpatrick', Age : '46', Elected : 'No', Gender : 'Female' }),				DUBLIN CENTRAL
+	   
 	   (a24:Candidate { Name : 'Darragh O'Brien', Age : '41', Elected : 'Yes', Gender : 'Male' }),					DUBLIN FINGAL
 	   (a25:Candidate { Name : 'Lorraine Clifford-Lee', Age : '34', Elected : 'No', Gender : 'Female' }),			DUBLIN FINGAL	
+	   
 	   (a26:Candidate { Name : 'John Curran', Age : '55', Elected : 'Yes', Gender : 'Male' }),						DUBLIN MID-WEST
+	   
 	   (a27:Candidate { Name : 'Paul McAuliffe', Age : '38', Elected : 'No', Gender : 'Male' }),					DUBLIN NORTH-WEST
+	   
 	   (a28:Candidate { Name : 'Mary White', Age : '71', Elected : 'No', Gender : 'Female' }),						DUBLIN RATHDOWN
+	   
 	   (a29:Candidate { Name : 'Catherine Ardagh', Age : '33', Elected : 'No', Gender : 'Female' }),				DUBLIN SOUTH-CENTRAL
+	   
 	   (a30:Candidate { Name : 'John Lahart', Age : '51', Elected : 'Yes', Gender : 'Male' }),						DUBLIN SOUTH-WEST
 	   (a31:Candidate { Name : 'Jack Chambers', Age : '25', Elected : 'No', Gender : 'Male' }),						DUBLIN WEST
 	   (a32:Candidate { Name : 'Cormac Devlin', Age : '35', Elected : 'No', Gender : 'Male' }),						DÚN LAOGHAIRE

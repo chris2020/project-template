@@ -1,38 +1,55 @@
 CREATE (a1:Candidate { Name : 'John Paul Phelan', Age : '37', Elected : 'Yes', Gender : 'Male' }),				Carlow-Kilkenny
 	   (a2:Candidate { Name : 'Pat Deering', Age : '48', Elected : 'Yes', Gender : 'Male' }),					Carlow-Kilkenny
 	   (a3:Candidate { Name : 'David Fitzgerald', Age : '46', Elected : 'No', Gender : 'Male' }),				Carlow-Kilkenny
+	   
 	   (a4:Candidate { Name : 'Heather Humphreys', Age : '55', Elected : 'Yes', Gender : 'Female' }),			CAVAN-MONAGHAN
 	   (a5:Candidate { Name : 'Joe O'Reilly', Age : '60', Elected : 'No', Gender : 'Male' }),					CAVAN-MONAGHAN
+	   
 	   (a6:Candidate { Name : 'Joe Carey', Age : '40', Elected : 'Yes', Gender : 'Male' }),						CLARE
 	   (a7:Candidate { Name : 'Pat Breen', Age : ' 58', Elected : 'Yes', Gender : 'Male' }),					CLARE
 	   (a8:Candidate { Name : 'Mary Howard', Age : '42', Elected : 'No', Gender : 'Female' }),					CLARE
-	   (a9:Candidate { Name : 'David Stanton', Age : '58', Elected : 'Yes', Gender : 'Male' }),					CORK EAST
+	   
+	   (a9:Candidate { Name :  'David Stanton', Age : '58', Elected : 'Yes', Gender : 'Male' }),					CORK EAST
 	   (a10:Candidate { Name : 'Noel McCarthy', Age : '53', Elected : 'No', Gender : 'Male' }),					CORK EAST
-	   (a:11Candidate { Name : 'Tom Barry', Age : '46', Elected : 'No', Gender : 'Male' }),						CORK EAST
+	   (a:11Candidate { Name : 'Tom Barry',		 Age : '46', Elected : 'No', Gender : 'Male' }),						CORK EAST
+	   
 	   (a12:Candidate { Name : 'Dara Murphy', Age : '45', Elected : 'Yes', Gender : 'Male' }),					CORK NORTH-CENTRAL
 	   (a13:Candidate { Name : 'Julie O'Leary', Age : '25', Elected : 'No', Gender : 'Female' }),				CORK NORTH-CENTRAL
+	   
 	   (a14:Candidate { Name : 'Michael Creed', Age : '52', Elected : 'Yes', Gender : 'Male' }),				CORK NORTH-WEST
 	   (a15:Candidate { Name : 'Áine Collins', Age : '46', Elected : 'No', Gender : 'Female' }),				CORK NORTH-WEST
+	   
 	   (a16:Candidate { Name : 'Simon Coveney', Age : '43', Elected : 'Yes', Gender : 'Male' }),				CORK SOUTH-CENTRAL
 	   (a17:Candidate { Name : 'Jerry Buttimer', Age : '48', Elected : 'No', Gender : 'Male' }),				CORK SOUTH-CENTRAL
+	   
 	   (a18:Candidate { Name : 'Jim Daly', Age : '42', Elected : 'Yes', Gender : 'Male' }),						CORK SOUTH-WEST
 	   (a19:Candidate { Name : 'Noel Harrington', Age : '44', Elected : 'No', Gender : 'Male' }),				CORK SOUTH-WEST
+	   
 	   (a20:Candidate { Name : 'Joe McHugh', Age : '44', Elected : 'Yes', Gender : 'Male' }),					DONEGAL
 	   (a21:Candidate { Name : 'Paddy Harte', Age : '60', Elected : 'No', Gender : 'Male' }),					DONEGAL
+	   
 	   (a22:Candidate { Name : 'Richard Bruton', Age : '62', Elected : 'Yes', Gender : 'Male' }),				DUBLIN BAY NORTH
 	   (a23:Candidate { Name : 'Naoise O Muirí', Age : '40', Elected : 'No', Gender : 'Female' }),				DUBLIN BAY NORTH
 	   (a24:Candidate { Name : 'Stephanie Regan', Age : '57', Elected : 'No', Gender : 'Female' }),				DUBLIN BAY NORTH
+	   
 	   (a25:Candidate { Name : 'Eoghan Murphy', Age : '33', Elected : 'Yes', Gender : 'Male' }),				DUBLIN BAY SOUTH
 	   (a26:Candidate { Name : 'Kate O'Connell', Age : '36', Elected : 'Yes', Gender : 'Female' }),				DUBLIN BAY SOUTH
+	   
 	   (a27:Candidate { Name : 'Paschal Donohoe', Age : '41', Elected : 'Yes', Gender : 'Male' }),				DUBLIN CENTRAL
+	   
 	   (a28:Candidate { Name : 'Alan Farrell', Age : '37', Elected : 'Yes', Gender : 'Male' }),					DUBLIN FINGAL
 	   (a29:Candidate { Name : 'James Reilly', Age : '60', Elected : 'No', Gender : 'Male' }),					DUBLIN FINGAL
+	   
 	   (a30:Candidate { Name : 'Frances Fitzgerald', Age : '65', Elected : 'Yes', Gender : 'Female' }),			DUBLIN MID-WEST
 	   (a31:Candidate { Name : 'Derek Keating', Age : '60', Elected : 'No', Gender : 'Male' }),					DUBLIN MID-WEST
+	   
 	   (a32:Candidate { Name : 'Noel Rock', Age : '28', Elected : 'Yes', Gender : 'Male' }),					DUBLIN NORTH-WEST
+	   
 	   (a33:Candidate { Name : 'Josepha Madigan', Age : '46', Elected : 'Yes', Gender : 'Female' }),			DUBLIN RATHDOWN
 	   (a34:Candidate { Name : 'Alan Shatter', Age : '64', Elected : 'No', Gender : 'Male' }),					DUBLIN RATHDOWN
+	   
 	   (a35:Candidate { Name : 'Catherine Byrne', Age : '59', Elected : 'Yes', Gender : 'Female' }),			DUBLIN SOUTH-CENTRAL
+	   
 	   (a36:Candidate { Name : 'Colm Brophy', Age : '49', Elected : 'Yes', Gender : 'Male' }),					DUBLIN SOUTH-WEST
 	   (a37:Candidate { Name : 'Anne-Marie Dermody', Age : '46', Elected : 'No', Gender : 'Female' }),			DUBLIN SOUTH-WEST
 	   (a38:Candidate { Name : 'Karen Warren', Age : '50', Elected : 'No', Gender : 'Female' }),				DUBLIN SOUTH-WEST
