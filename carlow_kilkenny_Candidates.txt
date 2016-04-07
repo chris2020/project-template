@@ -12,4 +12,4 @@ CREATE (c001:Candidate { name : 'Kathleen Funchion', age : '34', elected : 'Yes'
 	   (a012:Candidate { name : 'Paddy J Manning', age : '52', elected : 'No', gender : 'Male', constituency : 'Carlow-Kilkenny', party : 'Independent'}),
 	   (a013:Candidate { name : 'Keith Gilligan', age : '33', elected : 'No', gender : 'Male', constituency : 'Carlow-Kilkenny', party : 'Independent'}),
 	   (a014:Candidate { name : 'Noel Walsh', age : '50', elected : 'No', gender : 'Male', constituency : 'Carlow-Kilkenny', party : 'Independent'}),
-	   (a014:Candidate { name : 'Malcolm Noonan', age : '49', elected : 'No', gender : 'Male', constituency : 'Carlow-Kilkenny', party : 'Green Party'}),
+	   (a015:Candidate { name : 'Malcolm Noonan', age : '49', elected : 'No', gender : 'Male', constituency : 'Carlow-Kilkenny', party : 'Green Party'})
