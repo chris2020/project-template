@@ -59,18 +59,24 @@ CREATE (a1:Candidate { Name : 'John Paul Phelan', Age : '37', Elected : 'Yes', G
 	   
 	   (a41:Candidate { Name : 'Maria Bailey', Age : '39', Elected : 'Yes', Gender : 'Female' }),				DÚN LAOGHAIRE
 	   (a42:Candidate { Name : 'Mary Mitchell-O'Connor', Age : '56', Elected : 'Yes', Gender : 'Female' }),		DÚN LAOGHAIRE
+	   
 	   (a43:Candidate { Name : 'Ciarán Cannon', Age : '50', Elected : 'Yes', Gender : 'Male' }),				GALWAY EAST
 	   (a44:Candidate { Name : 'Paul Connaughton', Age : '33', Elected : 'No', Gender : 'Male' }),				GALWAY EAST
+	   
 	   (a45:Candidate { Name : 'Hildegarde Naughton', Age : '38', Elected : 'Yes', Gender : 'Female' }),		GALWAY WEST
 	   (a46:Candidate { Name : 'Sean Kyne', Age : '40', Elected : 'Yes', Gender : 'Male' }),					GALWAY WEST
 	   (a47:Candidate { Name : 'John O'Mahony', Age : '62', Elected : 'No', Gender : 'Male' }),					GALWAY WEST
+	   
 	   (a48:Candidate { Name : 'Brendan Griffin', Age : '33', Elected : 'Yes', Gender : 'Male' }),				KERRY
 	   (a49:Candidate { Name : 'Grace O'Donnell', Age : '40', Elected : 'No', Gender : 'Female' }),				KERRY
 	   (a50:Candidate { Name : 'Jimmy Deenihan', Age : '63', Elected : 'No', Gender : 'Male' }),				KERRY
+	   
 	   (a51:Candidate { Name : 'Bernard Durkan', Age : '70', Elected : 'Yes', Gender : 'Male' }),				KILDARE NORTH
 	   (a52:Candidate { Name : 'Anthony Lawlor', Age : '56', Elected : 'No', Gender : 'Male' }),				KILDARE NORTH
+	   
 	   (a53:Candidate { Name : 'Martin Heydon', Age : '37', Elected : 'Yes', Gender : 'Male' }),				KILDARE SOUTH
 	   (a54:Candidate { Name : 'Fiona McLoughlin Healy', Age : '38', Elected : 'No', Gender : 'Female' }),		KILDARE SOUTH
+	   
 	   (a55:Candidate { Name : 'Charlie Flanagan', Age : '59', Elected : 'Yes', Gender : 'Male' }),				LAOIS
 	   (a56:Candidate { Name : 'Thomasina Connell', Age : '33', Elected : 'No', Gender : 'Female' }),			LAOIS
 	   (a58:Candidate { Name : 'Michael Noonan', Age : '72', Elected : 'Yes', Gender : 'Male' }),				LIMERICK CITY

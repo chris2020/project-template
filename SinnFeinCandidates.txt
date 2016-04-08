@@ -41,12 +41,19 @@ CREATE (a1:Candidate { Constituency : carlow-kilkenny, Name : 'Kathleen Funchion
 	   
 	   (a25:Candidate { Constituency : dublin south-west, Name : 'Seán Crowe', Age : '58', Elected : 'Yes', Gender : 'Male' }),								dublin south-west,
 	   (a26:Candidate { Constituency : dublin south-west, Name : 'Sarah Holland', Age : '37', Elected : 'No', Gender : 'Female' }),							dublin south-west,
-	   (a27:Candidate { Constituency : dublin west, Name : 'Paul Donnelly', Age : '47', Elected : 'No', Gender : 'Male' }),								dublin west,
+	   
+	   (a27:Candidate { Constituency : dublin west, Name : 'Paul Donnelly', Age : '47', Elected : 'No', Gender : 'Male' }),									dublin west,
+	   
 	   (a28:Candidate { Constituency : dún laoghaire, Name : 'Shane O'Brien', Age : '30', Elected : 'No', Gender : 'Male' }),								dún laoghaire,
+	   
 	   (a29:Candidate { Constituency : galway east, Name : 'Annemarie Roche', Age : '36', Elected : 'No', Gender : 'Female' }),							galway east,
+	   
 	   (a30:Candidate { Constituency : galway west, Name : 'Trevor O Clochartaigh', Age : '47', Elected : 'No', Gender : 'Male' }),						galway west,
+	   
 	   (a31:Candidate { Constituency : kerry, Name : 'Martin Ferris', Age : '63', Elected : 'Yes', Gender : 'Male' }),									kerry,
+	   
 	   (a32:Candidate { Constituency : kildare north, Name : 'Réada Cronin', Age : '51', Elected : 'No', Gender : 'Female' }),							kildare north,
+	   
 	   (a33:Candidate { Constituency : kildare south, Name : 'Patricia Ryan', Age : '52', Elected : 'No', Gender : 'Female' }),							kildare south,
 	   (a34:Candidate { Constituency : laois, Name : 'Brian Stanley', Age : '54', Elected : 'Yes', Gender : 'Male' }),									laois,
 	   (a35:Candidate { Constituency : limerick city, Name : 'Maurice Quinlivan', Age : '48', Elected : 'Yes', Gender : 'Male' }),						limerick city,
