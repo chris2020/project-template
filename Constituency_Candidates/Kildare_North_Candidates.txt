@@ -1,0 +1,15 @@
+CREATE (c001:Candidate { name : 'Réada Cronin',     	  	    age : '51', elected : 'No',  gender : 'Female', constituency : 'Kildare North', party : 'Sinn Fein' }),
+	   (c002:Candidate { name : 'Frank O'Rourke',     	  	    age : '42', elected : 'Yes', gender : 'Male',   constituency : 'Kildare North', party : 'Fianna Fail' }),
+	   (c003:Candidate { name : 'James Lawless',     	  	    age : '39', elected : 'Yes', gender : 'Male',   constituency : 'Kildare North', party : 'Fianna Fail' }),
+	   (c004:Candidate { name : 'Bernard Durkan',     	  	    age : '70', elected : 'Yes', gender : 'Male',   constituency : 'Kildare North', party : 'Fine Gael' }),
+	   (c005:Candidate { name : 'Anthony Lawlor',     	  	    age : '56', elected : 'No',  gender : 'Male',   constituency : 'Kildare North', party : 'Fine Gael' }),
+	   (c006:Candidate { name : 'Catherine Murphy',     	  	age : '62', elected : 'Yes', gender : 'Female', constituency : 'Kildare North', party : 'Social Democrats' }),
+	   (c007:Candidate { name : 'Emmet Stagg',     	  			age : '71', elected : 'No',  gender : 'Male',   constituency : 'Kildare North', party : 'Labour' }),
+	   (c008:Candidate { name : 'Maebh Ní Fhallúin',     	 	age : '35', elected : 'No',  gender : 'Female', constituency : 'Kildare North', party : 'Green Party' }),
+	   (c009:Candidate { name : 'Brendan Young',     	 		age : '60', elected : 'No',  gender : 'Male',   constituency : 'Kildare North', party : 'Independent' }),
+	   (c010:Candidate { name : 'Shane Fitzgerald',     	 	age : '43', elected : 'No',  gender : 'Male',   constituency : 'Kildare North', party : 'Renua Ireland' }),
+	   (c011:Candidate { name : 'Ashling Merriman',     	 	age : '46', elected : 'No',  gender : 'Female', constituency : 'Kildare North', party : 'AAA-PBP' }),
+	   (c012:Candidate { name : 'Michael Beirne',     	 		age : '75', elected : 'No',  gender : 'Male',   constituency : 'Kildare North', party : 'Independent' }),
+	   (c013:Candidate { name : 'Gerard Dunne',     	 		age : '48', elected : 'No',  gender : 'Male',   constituency : 'Kildare North', party : 'Independent' }),
+	   (c014:Candidate { name : 'Elizabeth O'Sullivan',     	age : '40', elected : 'No',  gender : 'Male',   constituency : 'Kildare North', party : 'Independent' })
+	  

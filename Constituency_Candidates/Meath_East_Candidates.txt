@@ -1,0 +1,12 @@
+CREATE 	(c001:Candidate { name : 'Thomas Byrne',			age : '38', elected : 'Yes', gender : 'Male',   constituency : 'Meath East', party : 'Fianna Fail' }),
+		(c002:Candidate { name : 'Helen McEntee',			age : '29', elected : 'Yes', gender : 'Female', constituency : 'Meath East', party : 'Fine Gael' }),
+		(c003:Candidate { name : 'Regina Doherty',			age : '45', elected : 'Yes', gender : 'Female', constituency : 'Meath East', party : 'Fine Gael' }),
+		(c004:Candidate { name : 'Darren O'Rourke',			age : '35', elected : 'No',  gender : 'Male', 	constituency : 'Meath East', party : 'Sinn Fein' }),
+		(c005:Candidate { name : 'Joe Bonner',				age : '61', elected : 'No',  gender : 'Male',   constituency : 'Meath East', party : 'Independent' }),
+		(c006:Candidate { name : 'Dominic Hannigan',		age : '50', elected : 'No',  gender : 'Male', 	constituency : 'Meath East', party : 'Labour' }),
+		(c007:Candidate { name : 'Aisling O'Neill',			age : '42', elected : 'No',  gender : 'Female', constituency : 'Meath East', party : 'Social Democrats' }),
+		(c008:Candidate { name : 'Sharon Keogan',			age : '53', elected : 'No',  gender : 'Female', constituency : 'Meath East', party : 'Independent' }),
+		(c009:Candidate { name : 'Ben Gilroy',				age : '52', elected : 'No',  gender : 'Male',   constituency : 'Meath East', party : 'Direct Democracy Ireland' }),
+		(c010:Candidate { name : 'Seán O Buachalla',		age : '34', elected : 'No',  gender : 'Male',   constituency : 'Meath East', party : 'Green Party' }),
+		(c011:Candidate { name : 'Sarah Tyrrell',			age : '25', elected : 'No',  gender : 'Female', constituency : 'Meath East', party : 'Renua Ireland' }),
+		(c012:Candidate { name : 'Seamus McDonagh',			age : '59', elected : 'No',  gender : 'Male',   constituency : 'Meath East', party : 'Workers Party' })

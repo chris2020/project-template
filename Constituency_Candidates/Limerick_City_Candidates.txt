@@ -1,0 +1,11 @@
+CREATE (c001:Candidate { name : 'Maurice Quinlivan',     	  	    age : '48', elected : 'Yes',  gender : 'Male',   constituency : 'Limerick City', party : 'Sinn Fein' }),
+	   (c002:Candidate { name : 'Willie O'Dea',     	  		    age : '62', elected : 'Yes',  gender : 'Male',   constituency : 'Limerick City', party : 'Fianna Fail' }),
+	   (c003:Candidate { name : 'Michael Noonan',      	  		    age : '72', elected : 'Yes',  gender : 'Male',   constituency : 'Limerick City', party : 'Fine Gael' }),
+	   (c004:Candidate { name : 'Kieran O'Donnell',     	  	    age : '52', elected : 'No',   gender : 'Male',   constituency : 'Limerick City', party : 'Fine Gael' }),
+	   (c005:Candidate { name : 'Jan O'Sullivan',     	  	   	    age : '64', elected : 'Yes',  gender : 'Male',   constituency : 'Limerick City', party : 'Labour' }),
+	   (c006:Candidate { name : 'Cian Prendiville',     	  	   	age : '26', elected : 'No',   gender : 'Male',   constituency : 'Limerick City', party : 'AAA-PBP' }),
+	   (c007:Candidate { name : 'Sarah Jane Hennelly',     	  	   	age : '27', elected : 'No',   gender : 'Female', constituency : 'Limerick City', party : 'Social Democrats' }),
+	   (c008:Candidate { name : 'James Gaffney',     	  	   	    age : '32', elected : 'No',   gender : 'Male',   constituency : 'Limerick City', party : 'Green Party' }),
+	   (c009:Candidate { name : 'Nora Bennis',     	  		   	    age : '79', elected : 'No',   gender : 'Female', constituency : 'Limerick City', party : 'Catholic Democrats' }),
+	   (c010:Candidate { name : 'Desmond Hayes',     	  		   	age : '47', elected : 'No',   gender : 'Male',   constituency : 'Limerick City', party : 'Independent' }),
+	   (c011:Candidate { name : 'Denis Riordan',     	  		   	age : '66', elected : 'No',   gender : 'Male',   constituency : 'Limerick City', party : 'Independent' })

@@ -1,0 +1,18 @@
+CREATE 	(c001:Candidate { name : 'Mick Wallace',   		age : '59', elected : 'Yes', gender : 'Male',   constituency : 'Wexford', party : 'Independents 4 Change' }),
+		(c002:Candidate { name : 'James Browne',   		age : '40', elected : 'Yes', gender : 'Male',   constituency : 'Wexford', party : 'Fianna Fail' }),
+		(c003:Candidate { name : 'Brendan Howlin',   	age : '59', elected : 'Yes', gender : 'Male',   constituency : 'Wexford', party : 'Labour' }),
+		(c004:Candidate { name : 'Michael D'Arcy',   	age : '45', elected : 'Yes', gender : 'Male',   constituency : 'Wexford', party : 'Fine Gael' }),
+		(c005:Candidate { name : 'Paul Kehoe',   		age : '43', elected : 'Yes', gender : 'Male',   constituency : 'Wexford', party : 'Fine Gael' }),
+		(c006:Candidate { name : 'Johnny Mythen',   	age : '57', elected : 'No',  gender : 'Male',   constituency : 'Wexford', party : 'Sinn Fein' }),
+		(c007:Candidate { name : 'Malcolm Byrne',  	    age : '41', elected : 'No',  gender : 'Male',   constituency : 'Wexford', party : 'Fianna Fail' }),
+		(c008:Candidate { name : 'Ger Carthy',   		age : '38', elected : 'No',  gender : 'Male',   constituency : 'Wexford', party : 'Independent' }),
+		(c009:Candidate { name : 'Aoife Byrne',   		age : '37', elected : 'No',  gender : 'Female', constituency : 'Wexford', party : 'Fianna Fail' }),
+		(c010:Candidate { name : 'Leonard Kelly',  	    age : '39', elected : 'No',  gender : 'Male',   constituency : 'Wexford', party : 'Social Democrats' }),
+		(c011:Candidate { name : 'Deirdre Wadding',   	age : '53', elected : 'No',  gender : 'Female', constituency : 'Wexford', party : 'AAA-PBP' }),
+		(c012:Candidate { name : 'John Dwyer',   		age : '36', elected : 'No',  gender : 'Male',   constituency : 'Wexford', party : 'Independent' }),
+		(c013:Candidate { name : 'Julie Hogan',   		age : '44', elected : 'No',  gender : 'Female', constituency : 'Wexford', party : 'Fine Gael' }),
+		(c014:Candidate { name : 'Ann Walsh',   		age : '41', elected : 'No',  gender : 'Female', constituency : 'Wexford', party : 'Green Party' }),
+		(c015:Candidate { name : 'Caroline Foxe',   	age : '47', elected : 'No',  gender : 'Female', constituency : 'Wexford', party : 'Independent' }),
+		(c016:Candidate { name : 'Emmet Moloney',  	    age : '29', elected : 'No',  gender : 'Male',   constituency : 'Wexford', party : 'Independent' }),
+		(c017:Candidate { name : 'David Lloyd',   	    age : '40', elected : 'No',  gender : 'Male',   constituency : 'Wexford', party : 'Direct Democracy Ireland' })
+		
