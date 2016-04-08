@@ -3189,3 +3189,13 @@ RETURN n
 2016-04-08 19:29:43.916+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [56]:  Check pointing completed
 2016-04-08 19:29:43.919+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
 2016-04-08 19:29:43.922+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-08 19:34:43.943+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [59]:  Starting check pointing...
+2016-04-08 19:34:43.950+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [59]:  Starting store flush...
+2016-04-08 19:34:44.040+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 59 to [C:\Users\Christy\Documents\College\Graph_Theory\project-template\constituencies.graphdb\neostore.counts.db.b], from [C:\Users\Christy\Documents\College\Graph_Theory\project-template\constituencies.graphdb\neostore.counts.db.a].
+2016-04-08 19:34:44.051+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 59 to [C:\Users\Christy\Documents\College\Graph_Theory\project-template\constituencies.graphdb\neostore.counts.db.b], from [C:\Users\Christy\Documents\College\Graph_Theory\project-template\constituencies.graphdb\neostore.counts.db.a].
+2016-04-08 19:34:44.129+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [59]:  Store flush completed
+2016-04-08 19:34:44.132+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [59]:  Starting appending check point entry into the tx log...
+2016-04-08 19:34:44.156+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [59]:  Appending check point entry into the tx log completed
+2016-04-08 19:34:44.159+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [59]:  Check pointing completed
+2016-04-08 19:34:44.161+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-08 19:34:44.164+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.

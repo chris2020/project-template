@@ -1,0 +1,10 @@
+CREATE (c001:Candidate { name : 'Seamus Browne',     	  	    age : '45', elected : 'No',  gender : 'Male',   constituency : 'Limerick County', party : 'Sinn Fein' }),
+	   (c002:Candidate { name : 'Niall Collins',     	  	    age : '42', elected : 'Yes', gender : 'Male',   constituency : 'Limerick County', party : 'Fianna Fail' }),
+	   (c003:Candidate { name : "Patrick O'Donovan",     	    age : '38', elected : 'Yes', gender : 'Male',   constituency : 'Limerick County', party : 'Fine Gael' }),
+	   (c004:Candidate { name : 'Tom Neville',     	    		age : '38', elected : 'Yes', gender : 'Male',   constituency : 'Limerick County', party : 'Fine Gael' }),
+	   (c005:Candidate { name : "Emmett O'Brien",     	    	age : '36', elected : 'No',  gender : 'Male',   constituency : 'Limerick County', party : 'Independent' }),
+	   (c006:Candidate { name : 'James Heffernan',     	    	age : '36', elected : 'No',  gender : 'Male',   constituency : 'Limerick County', party : 'Social Democrats' }),
+	   (c007:Candidate { name : "Richard O'Donoghue",     	    age : '45', elected : 'No',  gender : 'Male',   constituency : 'Limerick County', party : 'Independent' }),
+	   (c008:Candidate { name : 'Alexander Cosgrave',     	    age : '21', elected : 'No',  gender : 'Male',   constituency : 'Limerick County', party : 'Green Party' }),
+	   (c009:Candidate { name : 'Mark Keogh',     	    		age : '42', elected : 'No',  gender : 'Male',   constituency : 'Limerick County', party : 'Direct Democracy Ireland' }),
+	   (c010:Candidate { name : "John O'Gorman",     	    	age : '52', elected : 'No',  gender : 'Male',   constituency : 'Limerick County', party : 'Independent' })
