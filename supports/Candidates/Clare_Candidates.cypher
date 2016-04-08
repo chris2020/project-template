@@ -10,7 +10,7 @@ CREATE (c001:Candidate { name : 'Noeleen Moran', 			age : '38', elected : 'No', 
 	   (c010:Candidate { name : 'Ann Norton', 				age : '42', elected : 'No',  gender : 'Female', constituency : 'Clare', party : 'Independent' }),
 	   (c011:Candidate { name : 'Fergal Smith', 			age : '28', elected : 'No',  gender : 'Male',   constituency : 'Clare', party : 'Green Party' }),
 	   (c012:Candidate { name : 'Ian Lynch', 				age : '37', elected : 'No',  gender : 'Male',   constituency : 'Clare', party : 'Independent' }),
-	   (c013:Candidate { name : 'Niamh O'Brien', 			age : '34', elected : 'No',  gender : 'Female', constituency : 'Clare', party : 'Fis Nua' }),
+	   (c013:Candidate { name : "Niamh O'Brien", 			age : '34', elected : 'No',  gender : 'Female', constituency : 'Clare', party : 'Fis Nua' }),
 	   (c014:Candidate { name : 'Richard Cahill', 			age : '49', elected : 'No',  gender : 'Male',   constituency : 'Clare', party : 'Independent' }),
 	   (c015:Candidate { name : 'André Sibo Hakizimana', 	age : '49', elected : 'No',  gender : 'Male',   constituency : 'Clare', party : 'Independent' }),
 	   (c016:Candidate { name : 'Dermot Mulqueen', 			age : '47', elected : 'No',  gender : 'Male',   constituency : 'Clare', party : 'Independent' })
