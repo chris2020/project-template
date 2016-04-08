@@ -7,7 +7,7 @@ CREATE (c001:Candidate { name : 'Eoin O Broin',	       	    age : '44', elected 
 	   (c007:Candidate { name : 'Paul Gogarty',   		    age : '47', elected : 'No',  gender : 'Male',   constituency : 'Dublin Mid-West', party : 'Independent' }),
 	   (c008:Candidate { name : 'Joanna Tuffy',   		    age : '50', elected : 'No',  gender : 'Female', constituency : 'Dublin Mid-West', party : 'Labour' }),
 	   (c009:Candidate { name : 'Francis Timmons',   		age : '44', elected : 'No',  gender : 'Male',   constituency : 'Dublin Mid-West', party : 'Independent' }),
-	   (c010:Candidate { name : 'Lorraine Hennessy',   		age : '49', elected : 'No',  gender : 'Female', constituency : 'Dublin Mid-West', party : 'Workers' Party' }),
+	   (c010:Candidate { name : 'Lorraine Hennessy',   		age : '49', elected : 'No',  gender : 'Female', constituency : 'Dublin Mid-West', party : 'Workers Party' }),
 	   (c011:Candidate { name : 'Tom Kivlehan',   		    age : '50', elected : 'No',  gender : 'Male',   constituency : 'Dublin Mid-West', party : 'Green Party' }),
 	   (c012:Candidate { name : 'Clare Leonard',   		    age : '52', elected : 'No',  gender : 'Female', constituency : 'Dublin Mid-West', party : 'Independent' }),
 	   (c013:Candidate { name : 'Patrick Akpoveta',   		age : '51', elected : 'No',  gender : 'Male',   constituency : 'Dublin Mid-West', party : 'Independent' }),

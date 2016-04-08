@@ -9,7 +9,7 @@ CREATE (c001:Candidate { name : 'Mary Lou McDonald',	       	    age : '46', ele
 	   (c009:Candidate { name : 'Diana O'Dwyer',	       	   		age : '37', elected : 'No',  gender : 'Female',   constituency : 'Dublin Central', party : 'AAA-PBP' }),
 	   (c010:Candidate { name : 'Ian Noel Smyth',	       	   		age : '50', elected : 'No',  gender : 'Male',     constituency : 'Dublin Central', party : 'Green Party' }),
 	   (c011:Candidate { name : 'Jacqui Gilbourne',	       	   		age : '64', elected : 'No',  gender : 'Female',   constituency : 'Dublin Central', party : 'Renua Ireland' }),
-	   (c012:Candidate { name : 'Éilis Ryan',	       	   			age : '31', elected : 'No',  gender : 'Female',   constituency : 'Dublin Central', party : 'Workers' Party' }),
+	   (c012:Candidate { name : 'Éilis Ryan',	       	   			age : '31', elected : 'No',  gender : 'Female',   constituency : 'Dublin Central', party : 'Workers Party' }),
 	   (c013:Candidate { name : 'Cormac McKay',	       	   			age : '35', elected : 'No',  gender : 'Male',     constituency : 'Dublin Central', party : 'Direct Democracy Ireland' }),
 	   (c014:Candidate { name : 'Kerry Guinan',	       	   			age : '23', elected : 'No',  gender : 'Female',   constituency : 'Dublin Central', party : 'Independent' }),
 	   (c015:Candidate { name : 'William D.J. Gorman',	       	   	age : '54', elected : 'No',  gender : 'Male',     constituency : 'Dublin Central', party : 'Independent' })

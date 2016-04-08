@@ -9,4 +9,4 @@ CREATE 	(c001:Candidate { name : 'Thomas Byrne',			age : '38', elected : 'Yes', 
 		(c009:Candidate { name : 'Ben Gilroy',				age : '52', elected : 'No',  gender : 'Male',   constituency : 'Meath East', party : 'Direct Democracy Ireland' }),
 		(c010:Candidate { name : 'Seán O Buachalla',		age : '34', elected : 'No',  gender : 'Male',   constituency : 'Meath East', party : 'Green Party' }),
 		(c011:Candidate { name : 'Sarah Tyrrell',			age : '25', elected : 'No',  gender : 'Female', constituency : 'Meath East', party : 'Renua Ireland' }),
-		(c012:Candidate { name : 'Seamus McDonagh',			age : '59', elected : 'No',  gender : 'Male',   constituency : 'Meath East', party : 'Workers' Party' })
+		(c012:Candidate { name : 'Seamus McDonagh',			age : '59', elected : 'No',  gender : 'Male',   constituency : 'Meath East', party : 'Workers Party' })

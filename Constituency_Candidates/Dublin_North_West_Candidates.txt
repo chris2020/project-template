@@ -7,5 +7,5 @@ CREATE (c001:Candidate { name : 'Dessie Ellis',       	  		    age : '62', elect
 	   (c007:Candidate { name : 'Andrew Keegan',    		   	 	age : '52', elected : 'No',  gender : 'Male',     constituency : 'Dublin North-West', party : 'AAA-PBP' }),
 	   (c008:Candidate { name : 'Bernie Hughes',    		   	 	age : '61', elected : 'No',  gender : 'Female',   constituency : 'Dublin North-West', party : 'Independent' }),
 	   (c009:Candidate { name : 'Caroline Conroy',    		   	 	age : '44', elected : 'No',  gender : 'Female',   constituency : 'Dublin North-West', party : 'Green Party' }),
-	   (c010:Candidate { name : 'Jimmy Dignam',    		   	 		age : '28', elected : 'No',  gender : 'Male',     constituency : 'Dublin North-West', party : 'Workers' Party' }),
+	   (c010:Candidate { name : 'Jimmy Dignam',    		   	 		age : '28', elected : 'No',  gender : 'Male',     constituency : 'Dublin North-West', party : 'Workers Party' }),
 	   (c011:Candidate { name : 'Cormac McKay',    		   	 		age : '35', elected : 'No',  gender : 'Male',     constituency : 'Dublin North-West', party : 'Direct Democracy Ireland' })

@@ -6,7 +6,7 @@ CREATE (c001:Candidate { name : 'Jonathan O'Brien', 	        age : '43', elected
 	   (c006:Candidate { name : 'Mick Barry', 	                age : '52', elected : 'Yes', gender : 'Male',   constituency : 'Cork North–Central', party : 'AAA-PBP' }),
 	   (c007:Candidate { name : 'Kathleen Lynch', 	            age : '62', elected : 'No',  gender : 'Female', constituency : 'Cork North–Central', party : 'Labour' }),
 	   (c008:Candidate { name : 'Oliver Moran', 	            age : '37', elected : 'No',  gender : 'Male',   constituency : 'Cork North–Central', party : 'Green Party' }),
-	   (c009:Candidate { name : 'Ted Tynan', 	                age : '73', elected : 'No',  gender : 'Male',   constituency : 'Cork North–Central', party : 'Workers' Party' }),
+	   (c009:Candidate { name : 'Ted Tynan', 	                age : '73', elected : 'No',  gender : 'Male',   constituency : 'Cork North–Central', party : 'Workers Party' }),
 	   (c010:Candidate { name : 'Paddy O'Leary', 	            age : '62', elected : 'No',  gender : 'Male',   constituency : 'Cork North–Central', party : 'Renua Ireland' }),
 	   (c011:Candidate { name : 'Ger Keohane', 	            	age : '47', elected : 'No',  gender : 'Male',   constituency : 'Cork North–Central', party : 'Independent' }),
 	   (c012:Candidate { name : 'Mick Murphy', 	        	    age : '60', elected : 'No',  gender : 'Male',   constituency : 'Cork North–Central', party : 'Independent' }),
