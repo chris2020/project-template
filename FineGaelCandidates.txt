@@ -79,18 +79,24 @@ CREATE (a1:Candidate { Name : 'John Paul Phelan', Age : '37', Elected : 'Yes', G
 	   
 	   (a55:Candidate { Name : 'Charlie Flanagan', Age : '59', Elected : 'Yes', Gender : 'Male' }),				LAOIS
 	   (a56:Candidate { Name : 'Thomasina Connell', Age : '33', Elected : 'No', Gender : 'Female' }),			LAOIS
+	   
 	   (a58:Candidate { Name : 'Michael Noonan', Age : '72', Elected : 'Yes', Gender : 'Male' }),				LIMERICK CITY
 	   (a59:Candidate { Name : 'Kieran O'Donnell', Age : '52', Elected : 'No', Gender : 'Male' }),				LIMERICK CITY	
+	   
 	   (a60:Candidate { Name : 'Patrick O'Donovan', Age : '38', Elected : 'Yes', Gender : 'Male' }),			LIMERICK COUNTY
 	   (a61:Candidate { Name : 'Tom Neville', Age : '38', Elected : 'Yes', Gender : 'Male' }),					LIMERICK COUNTY
+	   
 	   (a62:Candidate { Name : 'Peter Burke', Age : '33', Elected : 'Yes', Gender : 'Male' }),					LONGFORD-WESTMEATH
 	   (a63:Candidate { Name : 'Gabrielle McFadden', Age : '48', Elected : 'No', Gender : 'Female' }),			LONGFORD-WESTMEATH
 	   (a64:Candidate { Name : 'James Bannon', Age : '57', Elected : 'No', Gender : 'Male' }),					LONGFORD-WESTMEATH
+	   
 	   (a65:Candidate { Name : 'Fergus O'Dowd', Age : '67', Elected : 'Yes', Gender : 'Male' }),				LOUTH
 	   (a66:Candidate { Name : 'Peter Fitzpatrick', Age : '53', Elected : 'Yes', Gender : 'Male' }),			LOUTH
+	   
 	   (a67:Candidate { Name : 'Enda Kenny', Age : '64', Elected : 'Yes', Gender : 'Male' }),					MAYO
 	   (a68:Candidate { Name : 'Michael Ring', Age : '61', Elected : 'Yes', Gender : 'Male' }),					MAYO
 	   (a69:Candidate { Name : 'Michelle Mulherin', Age : '43', Elected : 'No', Gender : 'Female' }),			MAYO
+	   
 	   (a70Candidate  { Name : 'Helen McEntee', Age : '29', Elected : 'Yes', Gender : 'Female' }),				MEATH EAST
 	   (a71:Candidate { Name : 'Regina Doherty', Age : '45', Elected : 'Yes', Gender : 'Female' }),				MEATH EAST
 	   (a72:Candidate { Name : 'Ray Butler', Age : '49', Elected : 'Yes', Gender : 'Male' }),					MEATH WEST

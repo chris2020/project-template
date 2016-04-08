@@ -55,13 +55,20 @@ CREATE (a1:Candidate { Constituency : carlow-kilkenny, Name : 'Kathleen Funchion
 	   (a32:Candidate { Constituency : kildare north, Name : 'Réada Cronin', Age : '51', Elected : 'No', Gender : 'Female' }),							kildare north,
 	   
 	   (a33:Candidate { Constituency : kildare south, Name : 'Patricia Ryan', Age : '52', Elected : 'No', Gender : 'Female' }),							kildare south,
+	   
 	   (a34:Candidate { Constituency : laois, Name : 'Brian Stanley', Age : '54', Elected : 'Yes', Gender : 'Male' }),									laois,
+	   
 	   (a35:Candidate { Constituency : limerick city, Name : 'Maurice Quinlivan', Age : '48', Elected : 'Yes', Gender : 'Male' }),						limerick city,
-	   (a36:Candidate { Constituency : limerick county, Name : 'Seamus Browne', Age : '45', Elected : 'No', Gender : 'Male' }),								limerick county,
-	   (a37:Candidate { Constituency : longford-westmeath, Name : 'Paul Hogan', Age : '32', Elected : 'No', Gender : 'Male' }),								longford-westmeath,
+	   
+	   (a36:Candidate { Constituency : limerick county, Name : 'Seamus Browne', Age : '45', Elected : 'No', Gender : 'Male' }),							limerick county,
+	   
+	   (a37:Candidate { Constituency : longford-westmeath, Name : 'Paul Hogan', Age : '32', Elected : 'No', Gender : 'Male' }),							longford-westmeath,
+	   
 	   (a38:Candidate { Constituency : louth, Name : 'Gerry Adams', Age : '67', Elected : 'Yes', Gender : 'Male' }),									louth,
-	   (a39:Candidate { Constituency : louth,	 Name : 'Imelda Munster', Age : '48', Elected : 'Yes', Gender : 'Female' }),							louth,	
+	   (a39:Candidate { Constituency : louth, Name : 'Imelda Munster', Age : '48', Elected : 'Yes', Gender : 'Female' }),								louth,	
+	   
 	   (a40:Candidate { Constituency : mayo, Name : 'Rose Conway-Walsh', Age : '42', Elected : 'No', Gender : 'Female' }),								mayo,
+	   
 	   (a41:Candidate { Constituency : meath east, Name : 'Darren O'Rourke', Age : '35', Elected : 'No', Gender : 'Male' }),							meath east,
 	   (a42:Candidate { Constituency : meath west, Name : 'Peadar Tóibín', Age : '41', Elected : 'Yes', Gender : 'Male' }),								meath west,
 	   (a43:Candidate { Constituency : offaly, Name : 'Carol Nolan', Age : '36', Elected : 'Yes', Gender : 'Female' }),									offaly,
