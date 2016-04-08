@@ -8,9 +8,9 @@ CREATE (c001:Candidate { name : 'Rose Conway-Walsh',     	  	    age : '42', ele
 	   (c008:Candidate { name : 'Michael Farrington',     	  		age : '78', elected : 'No',  gender : 'Male',   constituency : 'Mayo', party : 'Renua Ireland' }),
 	   (c009:Candidate { name : 'Margaret Sheehan',     	  		age : '50', elected : 'No',  gender : 'Female', constituency : 'Mayo', party : 'Green Party' }),
 	   (c010:Candidate { name : 'Tom Moran',     	  				age : '75', elected : 'No',  gender : 'Male',   constituency : 'Mayo', party : 'AAA-PBP' }),
-	   (c011:Candidate { name : 'George O'Malley',     	  			age : '60', elected : 'No',  gender : 'Male',   constituency : 'Mayo', party : 'Independent' }),
+	   (c011:Candidate { name : "George O'Malley",     	  			age : '60', elected : 'No',  gender : 'Male',   constituency : 'Mayo', party : 'Independent' }),
 	   (c012:Candidate { name : 'Peter Jordan',     	  			age : '54', elected : 'No',  gender : 'Male',   constituency : 'Mayo', party : 'Independent' }),
 	   (c013:Candidate { name : 'Stephen Manning',     	  			age : '57', elected : 'No',  gender : 'Male',   constituency : 'Mayo', party : 'Independent' }),
 	   (c014:Candidate { name : 'Mohammad Kamal Uddin',     	 	age : '49', elected : 'No',  gender : 'Male',   constituency : 'Mayo', party : 'Independent' }),
-	   (c015:Candidate { name : 'Gerry O'Boyle',     	 			age : '38', elected : 'No',  gender : 'Male',   constituency : 'Mayo', party : 'Independent' }),
+	   (c015:Candidate { name : "Gerry O'Boyle",     	 			age : '38', elected : 'No',  gender : 'Male',   constituency : 'Mayo', party : 'Independent' }),
 	   (c016:Candidate { name : 'Sean Forkan',     	 				age : '40', elected : 'No',  gender : 'Male',   constituency : 'Mayo', party : 'Independent' })
