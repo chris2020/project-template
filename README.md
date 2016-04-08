@@ -5,6 +5,9 @@
 This project involves creating a graph database with Neo4J and populating it with the Irish constituencies and the candidates that ran in each constituency. 
 
 ## Database
+The database has a node for each constituency and party.
+The constituencies have properties of name, seats and population
+The parties have properties of name, founded, position and leader
 Explain how you created your database, and how information is represented in it.
 
 ## Queries
