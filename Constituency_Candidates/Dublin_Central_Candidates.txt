@@ -1,5 +1,5 @@
-CREATE (c001:Candidate { name : 'Mary Lou McDonald',	       	    age : '46', elected : 'Yes', gender : 'Female',   constituency : 'Dublin Central', party : 'Sinn Féin' }),
-	   (c002:Candidate { name : 'Mary Fitzpatrick',	       	    	age : '46', elected : 'No',  gender : 'Female',   constituency : 'Dublin Central', party : 'Fianna Fáil' }),
+CREATE (c001:Candidate { name : 'Mary Lou McDonald',	       	    age : '46', elected : 'Yes', gender : 'Female',   constituency : 'Dublin Central', party : 'Sinn Fein' }),
+	   (c002:Candidate { name : 'Mary Fitzpatrick',	       	    	age : '46', elected : 'No',  gender : 'Female',   constituency : 'Dublin Central', party : 'Fianna Fail' }),
 	   (c003:Candidate { name : 'Paschal Donohoe',	       	    	age : '41', elected : 'Yes', gender : 'Male',     constituency : 'Dublin Central', party : 'Fine Gael' }),
 	   (c004:Candidate { name : 'Maureen O'Sullivan',	       	    age : '64', elected : 'Yes', gender : 'Female',   constituency : 'Dublin Central', party : 'Independent' }),
 	   (c005:Candidate { name : 'Gary Gannon',	       	   		    age : '28', elected : 'No',  gender : 'Male',     constituency : 'Dublin Central', party : 'Social Democrats' }),

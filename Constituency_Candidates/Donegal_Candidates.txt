@@ -1,8 +1,8 @@
-CREATE (c001:Candidate { name : 'Pearse Doherty', 	        age : '38', elected : 'Yes',   gender : 'Male',   constituency : 'Donegal', party : 'Sinn Féin' }),
-       (c002:Candidate { name : 'Gary Doherty', 	        age : '33', elected : 'No',    gender : 'Male',   constituency : 'Donegal', party : 'Sinn Féin' }),
-       (c003:Candidate { name : 'Padraig Mac Lochlainn', 	age : '42', elected : 'No',    gender : 'Male',   constituency : 'Donegal', party : 'Sinn Féin' }),
-	   (c004:Candidate { name : 'Charlie McConalogue', 		age : '38', elected : 'Yes',   gender : 'Male',   constituency : 'Donegal', party : 'Fianna Fáil' }),
-	   (c005:Candidate { name : 'Pat Gallagher', 			age : '67', elected : 'Yes',   gender : 'Male',   constituency : 'Donegal', party : 'Fianna Fáil' }),
+CREATE (c001:Candidate { name : 'Pearse Doherty', 	        age : '38', elected : 'Yes',   gender : 'Male',   constituency : 'Donegal', party : 'Sinn Fein' }),
+       (c002:Candidate { name : 'Gary Doherty', 	        age : '33', elected : 'No',    gender : 'Male',   constituency : 'Donegal', party : 'Sinn Fein' }),
+       (c003:Candidate { name : 'Padraig Mac Lochlainn', 	age : '42', elected : 'No',    gender : 'Male',   constituency : 'Donegal', party : 'Sinn Fein' }),
+	   (c004:Candidate { name : 'Charlie McConalogue', 		age : '38', elected : 'Yes',   gender : 'Male',   constituency : 'Donegal', party : 'Fianna Fail' }),
+	   (c005:Candidate { name : 'Pat Gallagher', 			age : '67', elected : 'Yes',   gender : 'Male',   constituency : 'Donegal', party : 'Fianna Fail' }),
 	   (c006:Candidate { name : 'Joe McHugh', 				age : '44', elected : 'Yes',   gender : 'Male',   constituency : 'Donegal', party : 'Fine Gael' }),
 	   (c007:Candidate { name : 'Paddy Harte', 				age : '60', elected : 'No',    gender : 'Male',   constituency : 'Donegal', party : 'Fine Gael' }),
 	   (c008:Candidate { name : 'Thomas Pringle', 			age : '48', elected : 'Yes',   gender : 'Male',   constituency : 'Donegal', party : 'Independent' }),
@@ -13,4 +13,4 @@ CREATE (c001:Candidate { name : 'Pearse Doherty', 	        age : '38', elected :
 	   (c013:Candidate { name : 'Ian McGarvey', 			age : '85', elected : 'No',    gender : 'Male',   constituency : 'Donegal', party : 'Independent' }),
 	   (c014:Candidate { name : 'Michael Mooney', 			age : '38', elected : 'No',    gender : 'Male',   constituency : 'Donegal', party : 'Independent' }),
 	   (c015:Candidate { name : 'Paula Flanagan', 			age : '47', elected : 'No',    gender : 'Female', constituency : 'Donegal', party : 'Green Party' }),
-	   (c016:Candidate { name : 'Cordelia Nic Fhearraigh', 	age : '52', elected : 'No',    gender : 'Female', constituency : 'Donegal', party : 'Fís Nua' })
+	   (c016:Candidate { name : 'Cordelia Nic Fhearraigh', 	age : '52', elected : 'No',    gender : 'Female', constituency : 'Donegal', party : 'Fis Nua' })

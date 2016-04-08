@@ -1,5 +1,5 @@
-CREATE (c001:Candidate { name : 'Seamus Browne',     	  	    age : '45', elected : 'No',  gender : 'Male',   constituency : 'Limerick County', party : 'Sinn Féin' }),
-	   (c002:Candidate { name : 'Niall Collins',     	  	    age : '42', elected : 'Yes', gender : 'Male',   constituency : 'Limerick County', party : 'Fianna Fáil' }),
+CREATE (c001:Candidate { name : 'Seamus Browne',     	  	    age : '45', elected : 'No',  gender : 'Male',   constituency : 'Limerick County', party : 'Sinn Fein' }),
+	   (c002:Candidate { name : 'Niall Collins',     	  	    age : '42', elected : 'Yes', gender : 'Male',   constituency : 'Limerick County', party : 'Fianna Fail' }),
 	   (c003:Candidate { name : 'Patrick O'Donovan',     	    age : '38', elected : 'Yes', gender : 'Male',   constituency : 'Limerick County', party : 'Fine Gael' }),
 	   (c004:Candidate { name : 'Tom Neville',     	    		age : '38', elected : 'Yes', gender : 'Male',   constituency : 'Limerick County', party : 'Fine Gael' }),
 	   (c005:Candidate { name : 'Emmett O'Brien',     	    	age : '36', elected : 'No',  gender : 'Male',   constituency : 'Limerick County', party : 'Independent' }),

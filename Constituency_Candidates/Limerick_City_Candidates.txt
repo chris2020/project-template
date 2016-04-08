@@ -1,5 +1,5 @@
-CREATE (c001:Candidate { name : 'Maurice Quinlivan',     	  	    age : '48', elected : 'Yes',  gender : 'Male',   constituency : 'Limerick City', party : 'Sinn Féin' }),
-	   (c002:Candidate { name : 'Willie O'Dea',     	  		    age : '62', elected : 'Yes',  gender : 'Male',   constituency : 'Limerick City', party : 'Fianna Fáil' }),
+CREATE (c001:Candidate { name : 'Maurice Quinlivan',     	  	    age : '48', elected : 'Yes',  gender : 'Male',   constituency : 'Limerick City', party : 'Sinn Fein' }),
+	   (c002:Candidate { name : 'Willie O'Dea',     	  		    age : '62', elected : 'Yes',  gender : 'Male',   constituency : 'Limerick City', party : 'Fianna Fail' }),
 	   (c003:Candidate { name : 'Michael Noonan',      	  		    age : '72', elected : 'Yes',  gender : 'Male',   constituency : 'Limerick City', party : 'Fine Gael' }),
 	   (c004:Candidate { name : 'Kieran O'Donnell',     	  	    age : '52', elected : 'No',   gender : 'Male',   constituency : 'Limerick City', party : 'Fine Gael' }),
 	   (c005:Candidate { name : 'Jan O'Sullivan',     	  	   	    age : '64', elected : 'Yes',  gender : 'Male',   constituency : 'Limerick City', party : 'Labour' }),

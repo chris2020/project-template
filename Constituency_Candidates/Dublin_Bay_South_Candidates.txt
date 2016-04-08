@@ -1,5 +1,5 @@
-CREATE (c001:Candidate { name : 'Chris Andrews',	       	    age : '51', elected : 'No',  gender : 'Male',   constituency : 'Dublin Bay South', party : 'Sinn Féin' }),
-	   (c002:Candidate { name : 'Jim O'Callaghan',	       	    age : '47', elected : 'Yes', gender : 'Male',   constituency : 'Dublin Bay South', party : 'Fianna Fáil' }),
+CREATE (c001:Candidate { name : 'Chris Andrews',	       	    age : '51', elected : 'No',  gender : 'Male',   constituency : 'Dublin Bay South', party : 'Sinn Fein' }),
+	   (c002:Candidate { name : 'Jim O'Callaghan',	       	    age : '47', elected : 'Yes', gender : 'Male',   constituency : 'Dublin Bay South', party : 'Fianna Fail' }),
 	   (c003:Candidate { name : 'Eoghan Murphy', 	       	    age : '33', elected : 'Yes', gender : 'Male',   constituency : 'Dublin Bay South', party : 'Fine Gael' }),
 	   (c004:Candidate { name : 'Kate O'Connell',	       	    age : '36', elected : 'Yes', gender : 'Female', constituency : 'Dublin Bay South', party : 'Fine Gael' }),
 	   (c005:Candidate { name : 'Eamon Ryan',	       	   	    age : '52', elected : 'Yes', gender : 'Male',   constituency : 'Dublin Bay South', party : 'Green Party' }),

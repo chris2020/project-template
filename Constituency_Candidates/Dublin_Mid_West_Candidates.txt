@@ -1,5 +1,5 @@
-CREATE (c001:Candidate { name : 'Eoin O Broin',	       	    age : '44', elected : 'Yes', gender : 'Male',   constituency : 'Dublin Mid-West', party : 'Sinn Féin' }),
-	   (c002:Candidate { name : 'John Curran',	       	    age : '55', elected : 'Yes', gender : 'Male',   constituency : 'Dublin Mid-West', party : 'Fianna Fáil' }),
+CREATE (c001:Candidate { name : 'Eoin O Broin',	       	    age : '44', elected : 'Yes', gender : 'Male',   constituency : 'Dublin Mid-West', party : 'Sinn Fein' }),
+	   (c002:Candidate { name : 'John Curran',	       	    age : '55', elected : 'Yes', gender : 'Male',   constituency : 'Dublin Mid-West', party : 'Fianna Fail' }),
 	   (c003:Candidate { name : 'Frances Fitzgerald',	    age : '65', elected : 'Yes', gender : 'Male',   constituency : 'Dublin Mid-West', party : 'Fine Gael' }),
 	   (c004:Candidate { name : 'Derek Keating',       	    age : '60', elected : 'No',  gender : 'Male',   constituency : 'Dublin Mid-West', party : 'Fine Gael' }),
 	   (c005:Candidate { name : 'Gino Kenny',       	    age : '42', elected : 'Yes', gender : 'Male',   constituency : 'Dublin Mid-West', party : 'AAA-PBP' }),

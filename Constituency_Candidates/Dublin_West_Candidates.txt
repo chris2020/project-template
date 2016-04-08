@@ -1,5 +1,5 @@
-CREATE (c001:Candidate { name : 'Paul Donnelly',     	  	    age : '47', elected : 'No',  gender : 'Male',   constituency : 'Dublin West', party : 'Sinn Féin' }),
-       (c002:Candidate { name : 'Jack Chambers',     	  	    age : '25', elected : 'No',  gender : 'Male',   constituency : 'Dublin West', party : 'Fianna Fáil' }),	
+CREATE (c001:Candidate { name : 'Paul Donnelly',     	  	    age : '47', elected : 'No',  gender : 'Male',   constituency : 'Dublin West', party : 'Sinn Fein' }),
+       (c002:Candidate { name : 'Jack Chambers',     	  	    age : '25', elected : 'No',  gender : 'Male',   constituency : 'Dublin West', party : 'Fianna Fail' }),	
 	   (c003:Candidate { name : 'Leo Varadkar',      	  	    age : '36', elected : 'Yes', gender : 'Male',   constituency : 'Dublin West', party : 'Fine Gael' }),
 	   (c004:Candidate { name : 'Catherine Noone',     	  	    age : '39', elected : 'No',  gender : 'Female', constituency : 'Dublin West', party : 'Fine Gael' }),
 	   (c005:Candidate { name : 'Ruth Coppinger',     	  	    age : '38', elected : 'Yes', gender : 'Female', constituency : 'Dublin West', party : 'AAA-PBP' }),
