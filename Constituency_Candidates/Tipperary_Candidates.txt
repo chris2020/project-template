@@ -1,0 +1,13 @@
+CREATE 	(c001:Candidate { name : 'Jackie Cahill',			age : '53', elected : 'Yes', gender : 'Male',   constituency : 'Tipperary', party : 'Fianna Fáil' }),
+		(c002:Candidate { name : 'Mattie McGrath',			age : '57', elected : 'Yes', gender : 'Male',   constituency : 'Tipperary', party : 'Independent' }),
+		(c003:Candidate { name : 'Michael Lowry', 			age : '62', elected : 'Yes', gender : 'Male',   constituency : 'Tipperary', party : 'Independent' }),
+		(c004:Candidate { name : 'Séamus Healy',			age : '65', elected : 'Yes', gender : 'Male',   constituency : 'Tipperary', party : ' Workers and Unemployed Action' }),
+		(c005:Candidate { name : 'Alan Kelly',				age : '40', elected : 'Yes', gender : 'Male',   constituency : 'Tipperary', party : 'Labour' }),
+		(c006:Candidate { name : 'Tom Hayes',				age : '63', elected : 'No',  gender : 'Male',   constituency : 'Tipperary', party : ' Fine Gael' }),
+		(c007:Candidate { name : 'Michael Smith',		    age : '39', elected : 'No',  gender : 'Male',   constituency : 'Tipperary', party : ' Fianna Fáil' }),
+		(c008:Candidate { name : 'Seamus Morris',			age : '51', elected : 'No',  gender : 'Male',   constituency : 'Tipperary', party : 'Sinn Féin' }),
+		(c009:Candidate { name : 'Noel Coonan',				age : '65', elected : 'No',  gender : 'Male',   constituency : 'Tipperary', party : ' Fine Gael' }),
+		(c010:Candidate { name : 'Siobhán Ambrose',			age : '41', elected : 'No',  gender : 'Female', constituency : 'Tipperary', party : 'Fianna Fáil' }),
+		(c011:Candidate { name : 'Marie Murphy',			age : '51', elected : 'No',  gender : 'Female', constituency : 'Tipperary', party : 'Fine Gael' }),
+		(c012:Candidate { name : 'Gearóid Fitzgibbon',		age : '40', elected : 'No',  gender : 'Male',   constituency : 'Tipperary', party : 'Green Party' }),
+		(c013:Candidate { name : 'Michael Dillon',			age : '24', elected : 'No',  gender : 'Male',   constituency : 'Tipperary', party : 'Independent' })
