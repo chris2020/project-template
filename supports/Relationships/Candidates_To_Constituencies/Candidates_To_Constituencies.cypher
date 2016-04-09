@@ -29,6 +29,21 @@ CREATE (a)-[r:Represents]->(b)
 RETURN r
 
 MATCH (a:Candidate),(b:Constituency)
-WHERE a.constituency = 'Cork North-West' AND b.name = 'Cork North-West'
+WHERE a.constituency = 'Cork South–Central' AND b.name = 'Cork South–Central'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Cork South–West' AND b.name = 'Cork South–West'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Donegal' AND b.name = 'Donegal'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Donegal' AND b.name = 'Donegal'
 CREATE (a)-[r:Represents]->(b)
 RETURN r
