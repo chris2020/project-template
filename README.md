@@ -9,7 +9,10 @@ The data for the database was found and inserted into the database soley by me, 
 Query information is stored in cypher files.
 
 ## Database
-Number of nodes: 
+Number of nodes: 572
+Candidtates: 518
+Parties: 14
+Constituencies: 40
 
 The database is made up of nodes and relationships between nodes.
 Each candiate, constituency and party is represented by a node. 
