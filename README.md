@@ -89,3 +89,9 @@ RETURN
 1. [Neo4J website](http://neo4j.com/), the website of the Neo4j database.
 2. https://en.wikipedia.org/wiki/List_of_political_parties_in_the_Republic_of_Ireland
 3. http://www.thejournal.ie/election-2016/
+
+##Extra Queries Used
+MATCH (n:Candidate)
+WHERE n.constituency = " Cavan-Monaghan"
+SET   n.constituency = "Cavan-Monaghan"
+RETURN n
