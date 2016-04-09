@@ -173,7 +173,10 @@ WHERE a.constituency = 'Offaly' AND b.name = 'Offaly'
 CREATE (a)-[r:Represents]->(b)
 RETURN r
 
-
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Roscommon_Galway' AND b.name = 'Roscommon_Galway'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
 
 
 
