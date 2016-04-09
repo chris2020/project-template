@@ -15,7 +15,7 @@ CREATE 	(c001:Candidate { name : 'Martin Kenny',				age : '46', elected : 'Yes',
 		(c015:Candidate { name : 'Finbarr Filan',				age : '47', elected : 'No', gender : 'Male',   constituency : 'Sligo-Leitrim', party : 'Renua Ireland' }),
 		(c016:Candidate { name : "Leslie O'Hora",				age : '59', elected : 'No', gender : 'Female', constituency : 'Sligo-Leitrim', party : 'Green Party' }),
 		(c017:Candidate { name : 'Eamon Murray',				age : '63', elected : 'No', gender : 'Male',   constituency : 'Sligo-Leitrim', party : 'Independent' }),
-		(c018:Candidate { name : 'Bernard Sweeney',				age : '40', elected : 'No', gender : 'Male',  constituency : 'Sligo-Leitrim', party : 'Independent' })
+		(c018:Candidate { name : 'Bernard Sweeney',				age : '40', elected : 'No', gender : 'Male',   constituency : 'Sligo-Leitrim', party : 'Independent' })
 		
 		
 		
