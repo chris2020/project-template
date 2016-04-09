@@ -134,11 +134,14 @@ CREATE (a)-[r:Represents]->(b)
 RETURN r
 
 MATCH (a:Candidate),(b:Constituency)
-WHERE a.constituency = 'Limerick City' AND b.name = 'Limerick City'
+WHERE a.constituency = 'Limerick County' AND b.name = 'Limerick County'
 CREATE (a)-[r:Represents]->(b)
 RETURN r
 
-
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Limerick County' AND b.name = 'Limerick County'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
 
 
 
