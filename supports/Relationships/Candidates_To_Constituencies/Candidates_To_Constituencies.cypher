@@ -73,6 +73,15 @@ WHERE a.constituency = 'Dublin North-West' AND b.name = 'Dublin North-West'
 CREATE (a)-[r:Represents]->(b)
 RETURN r
 
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Dublin Rathdown' AND b.name = 'Dublin Rathdown'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Dublin Rathdown' AND b.name = 'Dublin Rathdown'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
 
 
 
