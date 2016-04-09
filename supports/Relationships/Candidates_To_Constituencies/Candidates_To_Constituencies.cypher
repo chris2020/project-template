@@ -128,6 +128,46 @@ WHERE a.constituency = 'Laois' AND b.name = 'Laois'
 CREATE (a)-[r:Represents]->(b)
 RETURN r
 
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Limerick City' AND b.name = 'Limerick City'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Limerick City' AND b.name = 'Limerick City'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
