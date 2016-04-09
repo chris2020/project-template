@@ -124,7 +124,7 @@ CREATE (a)-[r:Represents]->(b)
 RETURN r
 
 MATCH (a:Candidate),(b:Constituency)
-WHERE a.constituency = 'Kildare South' AND b.name = 'Kildare South'
+WHERE a.constituency = 'Laois' AND b.name = 'Laois'
 CREATE (a)-[r:Represents]->(b)
 RETURN r
 
