@@ -44,6 +44,55 @@ CREATE (a)-[r:Represents]->(b)
 RETURN r
 
 MATCH (a:Candidate),(b:Constituency)
-WHERE a.constituency = 'Donegal' AND b.name = 'Donegal'
+WHERE a.constituency = 'Dublin Bay North' AND b.name = 'Dublin Bay North'
 CREATE (a)-[r:Represents]->(b)
 RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Dublin Bay South' AND b.name = 'Dublin Bay South'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Dublin Central' AND b.name = 'Dublin_Central'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
