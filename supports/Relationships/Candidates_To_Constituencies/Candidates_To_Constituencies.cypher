@@ -113,11 +113,20 @@ WHERE a.constituency = 'Kerry' AND b.name = 'Kerry'
 CREATE (a)-[r:Represents]->(b)
 RETURN r
 
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Kildare North' AND b.name = 'Kildare North'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
 
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Kildare South' AND b.name = 'Kildare South'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
 
-
-
-
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Kildare South' AND b.name = 'Kildare South'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
 
 
 
