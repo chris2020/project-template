@@ -188,9 +188,15 @@ WHERE a.constituency = 'Tipperary' AND b.name = 'Tipperary'
 CREATE (a)-[r:Represents]->(b)
 RETURN r
 
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Waterford' AND b.name = 'Waterford'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
 
-
-
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Wexford' AND b.name = 'Wexford'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
 
 
 
