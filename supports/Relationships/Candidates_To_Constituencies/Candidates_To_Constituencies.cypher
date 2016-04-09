@@ -158,6 +158,53 @@ WHERE a.constituency = 'Mayo' AND b.name = 'Mayo'
 CREATE (a)-[r:Represents]->(b)
 RETURN r
 
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Mayo' AND b.name = 'Mayo'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
