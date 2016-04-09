@@ -174,13 +174,19 @@ CREATE (a)-[r:Represents]->(b)
 RETURN r
 
 MATCH (a:Candidate),(b:Constituency)
-WHERE a.constituency = 'Roscommon_Galway' AND b.name = 'Roscommon_Galway'
+WHERE a.constituency = 'Roscommon-Galway' AND b.name = 'Roscommon_Galway'
 CREATE (a)-[r:Represents]->(b)
 RETURN r
 
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Sligo-Leitrim' AND b.name = 'Sligo-Leitrim'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
 
-
-
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Tipperary' AND b.name = 'Tipperary'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
 
 
 
