@@ -149,11 +149,14 @@ CREATE (a)-[r:Represents]->(b)
 RETURN r
 
 MATCH (a:Candidate),(b:Constituency)
-WHERE a.constituency = 'Longford-Westmeath' AND b.name = 'Longford-Westmeath'
+WHERE a.constituency = 'Louth' AND b.name = 'Louth'
 CREATE (a)-[r:Represents]->(b)
 RETURN r
 
-
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Mayo' AND b.name = 'Mayo'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
 
 
 
