@@ -17,6 +17,7 @@ Constituencies: 40
 The database is made up of nodes and relationships between nodes.
 Each candiate, constituency and party is represented by a node. 
 Each node has a label and properties.
+If information was not available for a certain property then 'NA' will be returned 
 
 ```cypher
 

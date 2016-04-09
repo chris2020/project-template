@@ -11,4 +11,5 @@ CREATE (a:Party { name : 'Fine Gael', leader : 'Enda Kenny', founded : '1933', p
 	   (l:Party { name : 'Fis Nua', leader : 'none', founded : '2010', position : 'Left-Centre' }),
 	   (m:Party { name : 'Catholic Democrats', leader : 'none', founded : '1996', position : 'Right-wing' }),
 	   (n:Party { name : 'Independents 4 Change', leader : 'none', founded : '2014', position : 'Left-wing' }),
-	   (o:Party { name : 'Direct Democracy Ireland', leader : 'none', founded : '2010', position : 'Right-wing' })
+	   (o:Party { name : 'Direct Democracy Ireland', leader : 'none', founded : '2010', position : 'Right-wing' }),
+	   (o:Party { name : 'Independent', leader : 'none', founded : 'NA', position : 'NA' })
