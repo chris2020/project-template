@@ -98,6 +98,10 @@ WHERE a.constituency = 'Dún Laoghaire' AND b.name = 'Dún Laoghaire'
 CREATE (a)-[r:Represents]->(b)
 RETURN r
 
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Galway East' AND b.name = 'Galway East'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
 
 
 
