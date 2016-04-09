@@ -9,6 +9,26 @@ CREATE (a)-[r:Represents]->(b)
 RETURN r
 
 MATCH (a:Candidate),(b:Constituency)
-WHERE a.constituency = 'Cavan-Monaghan' AND b.name = 'Cavan Monaghan'
+WHERE a.constituency = 'Clare' AND b.name = 'Clare'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Cork-East' AND b.name = 'Cork East'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Cork North–Central' AND b.name = 'Cork North–Central'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Cork North-West' AND b.name = 'Cork North-West'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Cork North-West' AND b.name = 'Cork North-West'
 CREATE (a)-[r:Represents]->(b)
 RETURN r
