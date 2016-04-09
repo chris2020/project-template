@@ -143,9 +143,15 @@ WHERE a.constituency = 'Limerick County' AND b.name = 'Limerick County'
 CREATE (a)-[r:Represents]->(b)
 RETURN r
 
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Longford-Westmeath' AND b.name = 'Longford-Westmeath'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
 
-
-
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.constituency = 'Longford-Westmeath' AND b.name = 'Longford-Westmeath'
+CREATE (a)-[r:Represents]->(b)
+RETURN r
 
 
 
