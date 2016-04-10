@@ -12,24 +12,31 @@ The data for the database was found and inserted into the database soley by me, 
 * Candidtates: 551
 * Parties: 17
 * Constituencies: 40
-* Relationships: Belongs_to: 551, Represents: 551
+* Relationships: 
+	* Belongs_to: 551
+	* Represents: 551
 
 The database is made up of nodes and relationships between nodes.
 Each candiate, constituency and party is represented by a node. 
 Each node has a label and properties.
 If information was not available for a certain property then 'NA' will be returned 
 
+##Queries used to build database
+
+####Example of node
+
 ```cypher
 
-E.G CREATE (a:Party { name : 'Fine Gael', leader : 'Enda Kenny', founded : '1933', position : 'Centre-right' }),
+CREATE (a:Party { name : 'Fine Gael', leader : 'Enda Kenny', founded : '1933', position : 'Centre-right' }),
 
-In this example one node is created  'Party' is the label, information betweern the curly '{}' braces holds the properties, 'name' is the key of the property and 'Fine Gael' is the value returned by that key
+```
 
-All nodes use this format but the label and properties will differ depending on whether the node is a candiate, a party or a constituency.
+In this example one node is created,  'Party' is the label, information betweern the curly '{}' braces holds the properties, 'name' is the key of the property and 'Fine Gael' is the value returned by that key
+All nodes use this format but the label and properties differ depending on whether the node is a candiate, a party or a constituency.
 
-The constituencies have properties of name, seats and population
-The parties have properties of name, founded, position and leader
-The candidates have properties of name, age, elected, gender, constituency and party.
+* The constituencies have properties of name, seats and population
+* The parties have properties of name, founded, position and leader
+* The candidates have properties of name, age, elected, gender, constituency and party.
 
 One query was used to insert parties into the database 
 ```cypher
