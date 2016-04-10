@@ -69,7 +69,7 @@ CREATE (c001:Candidate { name : 'Rachel McCarthy', 	 age : '32', elected : 'No',
 * Query 2 retrieves the details of women under 30 who were elected 
 * Query 3 finds the number of fianna fail candidates who were elected in the Dublin region
 
-#### Average age of elected candidates
+#### Query 1: Average age of elected candidates
 This query finds all the elected women and elected men in the database and finds the average age for each gender.
 Age was stored as a string in the database so had to be converted into a number, this was done using the toInt() function.
 Then the average was calculated using the avg() function
@@ -80,7 +80,7 @@ WHERE  a.gender = "Female" AND a.elected = "Yes" AND b.gender = "Male" AND b.ele
 RETURN avg(toInt(a.age)) AS Female_Average_Age, avg(toInt(b.age)) AS Male_Average_Age;
 ```
 
-#### Elected women who were under 30 years of age
+#### Query 2: Elected women who were under 30 years of age
 This query finds all the women who were elected and under the age of 30.
 It retrieves extra details about them including constituency and party.
 Age needed to be converted into a number which was done using the toInt() function
@@ -90,7 +90,7 @@ WHERE   a.gender = "Female" AND a.elected = "Yes" AND toInt(a.age) < 30
 RETURN  a.name AS Name, a.age AS Age, b.name AS Constituency, a.party AS Party;
 ```
 
-#### Fianna Fail candidates who were elected in the Dublin region
+#### Query 3: Fianna Fail candidates who were elected in the Dublin region
 This query finds all the Fianna Fail candidates who were elected in the Dublin region 
 This was done by finding which candidates were related to the Finna Fail party.
 It only checks for them in the Dublin region which included Dun Laoghaire so searching for constituencies with just Dublin wasn't enough, an additional search was added for 'Dun'.
