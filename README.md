@@ -41,33 +41,33 @@ All nodes use this format but the label and properties differ depending on wheth
 ####Example query to insert Parties
  
 ```cypher
-E.G CREATE (a:Party { name : 'Fine Gael', leader : 'Enda Kenny', founded : '1933', position : 'Centre-right' }),
+CREATE (a:Party { name : 'Fine Gael', leader : 'Enda Kenny', founded : '1933', position : 'Centre-right' }),
 		   (b:Party { name : 'Labour Party', leader : 'Joan Burton', founded : '1912', position : 'Centre-left' }),
 ```
 
 ####Example query to insert Constituencies
 
 ```cypher
-E.G CREATE (a:Constituency { name : 'Carlow-Kilkenny', population : '145,659', seats : '5' }),
+CREATE (a:Constituency { name : 'Carlow-Kilkenny', population : '145,659', seats : '5' }),
 		   (b:Constituency { name : 'Cavan Monaghan', population : '120,483', seats : '4' }),
 ```
 
 ####Example query to insert Constituencies
 
 ```cypher
-E.G This query was used to create a candiate of constituency Wicklow
-
-	CREATE 	(c001:Candidate { name : 'Stephen Donnelly', age : '40', elected : 'Yes', gender : 'Male',   constituency : 'Wicklow', party : 'Social Democrats' }),
-
-	A separate query was used to input candidates from Cork South-West
+CREATE 	(c001:Candidate { name : 'Stephen Donnelly', age : '40', elected : 'Yes', gender : 'Male',   constituency : 'Wicklow', party : 'Social Democrats' }),
 	
-	CREATE (c001:Candidate { name : 'Rachel McCarthy', 	 age : '32', elected : 'No',   gender : 'Female', constituency : 'Cork South-West', party : 'Sinn Fein' }),
+CREATE (c001:Candidate { name : 'Rachel McCarthy', 	 age : '32', elected : 'No',   gender : 'Female', constituency : 'Cork South-West', party : 'Sinn Fein' }),
 ```
+* First query was used to create a candiate of constituency Wicklow
+* Second query was used to input candidates from Cork South-West
 
-Explain how you created your database, and how information is represented in it.
 
-## Queries
-The queries are based on the average age of women and men who were elected, the details of women under 30 who were elected and the number of fianna fail candidates who were elected in the Dublin region
+## Queries Overview
+* These queries foucus on gender differences, age and regions. 
+* Query 1 is based on the average age of women and men who were elected, 
+* Query 2 retrieves the details of women under 30 who were elected 
+* Query 3 finds the number of fianna fail candidates who were elected in the Dublin region
 
 #### Average age of elected candidates
 This query finds all the elected women and elected men in the database and finds the average age for each gender.
