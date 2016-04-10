@@ -6,14 +6,13 @@ This project involves creating a graph database with Neo4J and populating it wit
 The purpose of the project is to create 3 queries that finds specific information based on the data that is in the database.
 The data for the database was found and inserted into the database soley by me, references to where the data was procured and where information on Neo4J queries was obtained can be found below under the references section.
 
-Query information is stored in cypher files.
 
-## Database
-Number of nodes: 572
-Candidtates: 551
-Relationships: Belongs_to: 551, Represents: 551
-Parties: 17
-Constituencies: 40
+## Database Details
+*Number of nodes: 608
+*Candidtates: 551
+*Parties: 17
+*Constituencies: 40
+*Relationships: Belongs_to: 551, Represents: 551
 
 The database is made up of nodes and relationships between nodes.
 Each candiate, constituency and party is represented by a node. 
