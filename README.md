@@ -42,14 +42,14 @@ All nodes use this format but the label and properties differ depending on wheth
  
 ```cypher
 CREATE (a:Party { name : 'Fine Gael', leader : 'Enda Kenny', founded : '1933', position : 'Centre-right' }),
-		   (b:Party { name : 'Labour Party', leader : 'Joan Burton', founded : '1912', position : 'Centre-left' }),
+       (b:Party { name : 'Labour Party', leader : 'Joan Burton', founded : '1912', position : 'Centre-left' }),
 ```
 
 ####Example query to insert Constituencies
 
 ```cypher
 CREATE (a:Constituency { name : 'Carlow-Kilkenny', population : '145,659', seats : '5' }),
-		   (b:Constituency { name : 'Cavan Monaghan', population : '120,483', seats : '4' }),
+       (b:Constituency { name : 'Cavan Monaghan', population : '120,483', seats : '4' }),
 ```
 
 ####Example query to insert Constituencies
@@ -64,7 +64,7 @@ CREATE (c001:Candidate { name : 'Rachel McCarthy', 	 age : '32', elected : 'No',
 
 
 ## Queries Overview
-* These queries foucus on gender differences, age and regions. 
+* These queries focus on gender differences, age and regions. 
 * Query 1 is based on the average age of women and men who were elected, 
 * Query 2 retrieves the details of women under 30 who were elected 
 * Query 3 finds the number of fianna fail candidates who were elected in the Dublin region
@@ -104,17 +104,25 @@ ORDER BY  dublin.name;
 ```
 
 ## References
-1. [Neo4J website](http://neo4j.com/), the website of the Neo4j database.
-2. https://en.wikipedia.org/wiki/List_of_political_parties_in_the_Republic_of_Ireland
-3. http://www.thejournal.ie/election-2016/
+* Cypher 
+	1. [Neo4J website](http://neo4j.com/), the website of the Neo4j database.
+	2. https://en.wikipedia.org/wiki/List_of_political_parties_in_the_Republic_of_Ireland
+	
+* Database entries
+	1.http://www.thejournal.ie/election-2016/
 
-##Extra Queries Used
+##Extra Queries Used for changing some of the entries
+
+* A space was in the string so I removed it
+```cypher
 MATCH (n:Candidate)
 WHERE n.constituency = " Cavan-Monaghan"
 SET   n.constituency = "Cavan-Monaghan"
 RETURN n
-
-
+```
+ * Needed to find candidates who didn't have a relationship 
+```cypher
 MATCH (a:Candidate)
 WHERE NOT (a)-[:Belongs_to]->()
 return a
+```
