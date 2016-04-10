@@ -8,11 +8,11 @@ The data for the database was found and inserted into the database soley by me, 
 
 
 ## Database Details
-*Number of nodes: 608
-*Candidtates: 551
-*Parties: 17
-*Constituencies: 40
-*Relationships: Belongs_to: 551, Represents: 551
+* Number of nodes: 608
+* Candidtates: 551
+* Parties: 17
+* Constituencies: 40
+* Relationships: Belongs_to: 551, Represents: 551
 
 The database is made up of nodes and relationships between nodes.
 Each candiate, constituency and party is represented by a node. 
@@ -55,34 +55,40 @@ E.G This query was used to create a candiate of constituency Wicklow
 Explain how you created your database, and how information is represented in it.
 
 ## Queries
-Summarise your three queries here.
-Then explain them one by one in the following sections.
+The queries are based on the average age of women and men who were elected, the details of women under 30 who were elected and the number of fianna fail candidates who were elected in the Dublin region
 
-#### Query one title
-This query retreives the Bacon number of an actor...
+#### Average age of elected candidates
+This query finds all the elected women and elected men in the database and finds the average age for each gender.
+Age was stored as a string in the database so had to be converted into a number, this was done using the toInt() function.
+Then the average was calculated using the avg() function
+The results are given a title depending on the gender using the 'AS' keyword
 ```cypher
-MATCH
-	(Bacon)
-RETURN
-	Bacon;
+MATCH (a:Candidate), (b:Candidate)
+WHERE  a.gender = "Female" AND a.elected = "Yes" AND b.gender = "Male" AND b.elected = "Yes"
+RETURN avg(toInt(a.age)) AS Female_Average_Age, avg(toInt(b.age)) AS Male_Average_Age;
 ```
 
-#### Query two title
-This query retreives the Bacon number of an actor...
+#### Elected women who were under 30 years of age
+This query finds all the women who were elected and under the age of 30.
+It retrieves extra details about them including constituency and party.
+Age needed to be converted into a number which was done using the toInt() function
 ```cypher
-MATCH
-	(Bacon)
-RETURN
-	Bacon;
+MATCH  (a:Candidate)-[r:Represents]->(b:Constituency)
+WHERE   a.gender = "Female" AND a.elected = "Yes" AND toInt(a.age) < 30
+RETURN  a.name AS Name, a.age AS Age, b.name AS Constituency, a.party AS Party;
 ```
 
-#### Query three title
-This query retreives the Bacon number of an actor...
+#### Fianna Fail candidates who were elected in the Dublin region
+This query finds all the Fianna Fail candidates who were elected in the Dublin region 
+This was done by finding which candidates were related to the Finna Fail party.
+It only checks for them in the Dublin region which included Dun Laoghaire so searching for constituencies with just Dublin wasn't enough, an additional search was added for 'Dun'.
+When all constituencies were found the query looked for the elected people and returns them by name with the heading 'Name' using 'AS' keyword
+Finally the names are ordered in alphabetical order using the 'ORDER BY' statement 
 ```cypher
-MATCH
-	(Bacon)
-RETURN
-	Bacon;
+MATCH    (dublin:Candidate)-[r:Belongs_to]->(p:Party)
+WHERE    (dublin.constituency CONTAINS "Dublin" OR dublin.constituency STARTS WITH "Dun") AND dublin.elected = "Yes" AND p.name = "Fianna Fail"
+RETURN 	  dublin.name AS Name
+ORDER BY  dublin.name;
 ```
 
 ## References
