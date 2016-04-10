@@ -17,7 +17,7 @@ CREATE (a:Constituency { name : 'Carlow-Kilkenny', population : '145,659', seats
 	   (q:Constituency { name : 'Dublin South-Central', population : '114660', seats : '4' }),
 	   (r:Constituency { name : 'Dublin South-West', population : '144908', seats : '5' }),
 	   (s:Constituency { name : 'Dublin West', population : '113179', seats : '4' }),
-	   (t:Constituency { name : 'Dún Laoghaire', population : '118791', seats : '4' }),
+	   (t:Constituency { name : 'Dun Laoghaire', population : '118791', seats : '4' }),
 	   (u:Constituency { name : 'Galway East', population : '89564', seats : '3' }),
 	   (v:Constituency { name : 'Galway West', population : '150874', seats : '5' }),
 	   (w:Constituency { name : 'Kerry', population : '145502', seats : '5' }),
