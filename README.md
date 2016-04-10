@@ -1,5 +1,6 @@
 # Irish Constituencies Neo4j Database
-###### Christy Madden, G00214065
+###### Name: Christy Madden
+###### Number: G00214065
 
 ## Introduction
 This project involves creating a graph database with Neo4J and populating it with the Irish constituencies, the parties and the candidates that ran in each party.
@@ -105,11 +106,11 @@ ORDER BY  dublin.name;
 
 ## References
 * Cypher 
-	1. [Neo4J website](http://neo4j.com/), the website of the Neo4j database.
-	2. https://en.wikipedia.org/wiki/List_of_political_parties_in_the_Republic_of_Ireland
+	* [Neo4J website](http://neo4j.com/) the website of the Neo4j database.
 	
 * Database entries
-	1.http://www.thejournal.ie/election-2016/
+	* http://www.thejournal.ie/election-2016/
+	* https://en.wikipedia.org/wiki/List_of_political_parties_in_the_Republic_of_Ireland
 
 ##Extra Queries Used for changing some of the entries
 
