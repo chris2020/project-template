@@ -38,18 +38,22 @@ All nodes use this format but the label and properties differ depending on wheth
 * The parties have properties of name, founded, position and leader
 * The candidates have properties of name, age, elected, gender, constituency and party.
 
-One query was used to insert parties into the database 
+####Example query to insert Parties
+ 
 ```cypher
 E.G CREATE (a:Party { name : 'Fine Gael', leader : 'Enda Kenny', founded : '1933', position : 'Centre-right' }),
 		   (b:Party { name : 'Labour Party', leader : 'Joan Burton', founded : '1912', position : 'Centre-left' }),
+```
 
+####Example query to insert Constituencies
 
-One query was used to insert constituencies into the database
 ```cypher
 E.G CREATE (a:Constituency { name : 'Carlow-Kilkenny', population : '145,659', seats : '5' }),
 		   (b:Constituency { name : 'Cavan Monaghan', population : '120,483', seats : '4' }),
+```
 
-One query was used to insert candidates into the database by constituency
+####Example query to insert Constituencies
+
 ```cypher
 E.G This query was used to create a candiate of constituency Wicklow
 
@@ -58,6 +62,7 @@ E.G This query was used to create a candiate of constituency Wicklow
 	A separate query was used to input candidates from Cork South-West
 	
 	CREATE (c001:Candidate { name : 'Rachel McCarthy', 	 age : '32', elected : 'No',   gender : 'Female', constituency : 'Cork South-West', party : 'Sinn Fein' }),
+```
 
 Explain how you created your database, and how information is represented in it.
 
