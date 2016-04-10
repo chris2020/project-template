@@ -10,8 +10,9 @@ Query information is stored in cypher files.
 
 ## Database
 Number of nodes: 572
-Candidtates: 518
-Parties: 14
+Candidtates: 551
+Relationships: Belongs_to: 551, Represents: 551
+Parties: 17
 Constituencies: 40
 
 The database is made up of nodes and relationships between nodes.
@@ -95,3 +96,8 @@ MATCH (n:Candidate)
 WHERE n.constituency = " Cavan-Monaghan"
 SET   n.constituency = "Cavan-Monaghan"
 RETURN n
+
+
+MATCH (a:Candidate)
+WHERE NOT (a)-[:Belongs_to]->()
+return a

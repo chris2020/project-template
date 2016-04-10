@@ -13,13 +13,4 @@ CREATE (c001:Candidate { name : 'Mary Lou McDonald',	       	    age : '46', ele
 	   (c013:Candidate { name : 'Cormac McKay',	       	   			age : '35', elected : 'No',  gender : 'Male',     constituency : 'Dublin Central', party : 'Direct Democracy Ireland' }),
 	   (c014:Candidate { name : 'Kerry Guinan',	       	   			age : '23', elected : 'No',  gender : 'Female',   constituency : 'Dublin Central', party : 'Independent' }),
 	   (c015:Candidate { name : 'William D.J. Gorman',	       	   	age : '54', elected : 'No',  gender : 'Male',     constituency : 'Dublin Central', party : 'Independent' })
-	   
-	   
-	   
-	   
-	   
-	   
-MATCH (a:Candidate),(b:Party)
-WHERE a.constituency = "Dublin Central" AND a.party = 'Fianna Fail' AND b.name = 'Fianna Fail'
-CREATE (a)-[r:Belongs_to]->(b)
-RETURN r
+	  

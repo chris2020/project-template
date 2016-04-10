@@ -17,27 +17,3 @@ CREATE 	(c001:Candidate { name : 'Martin Kenny',				age : '46', elected : 'Yes',
 		(c017:Candidate { name : 'Eamon Murray',				age : '63', elected : 'No', gender : 'Male',   constituency : 'Sligo-Leitrim', party : 'Independent' }),
 		(c018:Candidate { name : 'Bernard Sweeney',				age : '40', elected : 'No', gender : 'Male',   constituency : 'Sligo-Leitrim', party : 'Independent' })
 		
-		
-		
-	
-		
-		
-MATCH (a:Candidate),(b:Party)
-WHERE a.constituency = "Sligo-Leitrim" AND a.party = 'Fianna Fáil' AND b.name = 'Fianna Fail'
-CREATE (a)-[r:Belongs_to]->(b)
-RETURN r
-
-MATCH (a:Candidate)
-WHERE a.constituency = "Sligo-Leitrim" AND a.party = 'Fianna Fáil' 
-RETURN a
-
-
-//Done
-AAA-PBP
-Fine Gael
-Independent
-Green Party
-Renua Ireland
-Labour
-Sinn Féin
-Fianna Fail
