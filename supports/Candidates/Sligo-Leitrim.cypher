@@ -1,7 +1,7 @@
 CREATE 	(c001:Candidate { name : 'Martin Kenny',				age : '46', elected : 'Yes', gender : 'Male',  constituency : 'Sligo-Leitrim', party : 'Sinn Féin' }),
-		(c002:Candidate { name : 'Marc MacSharry',				age : '42', elected : 'Yes', gender : 'Male',  constituency : 'Sligo-Leitrim', party : ' Fianna Fáil' }),
+		(c002:Candidate { name : 'Marc MacSharry',				age : '42', elected : 'Yes', gender : 'Male',  constituency : 'Sligo-Leitrim', party : 'Fianna Fáil' }),
 		(c003:Candidate { name : 'Tony McLoughlin',				age : '66', elected : 'Yes', gender : 'Male',  constituency : 'Sligo-Leitrim', party : 'Fine Gael' }),
-		(c004:Candidate { name : 'Eamon Scanlon',				age : '61', elected : 'Yes', gender : 'Male',  constituency : 'Sligo-Leitrim', party : ' Fianna Fáil' }),
+		(c004:Candidate { name : 'Eamon Scanlon',				age : '61', elected : 'Yes', gender : 'Male',  constituency : 'Sligo-Leitrim', party : 'Fianna Fáil' }),
 		(c005:Candidate { name : 'Gerry Reynolds',				age : '54', elected : 'No', gender : 'Male',   constituency : 'Sligo-Leitrim', party : 'Fine Gael' }),
 		(c006:Candidate { name : 'Chris MacManus',				age : '42', elected : 'No', gender : 'Male',   constituency : 'Sligo-Leitrim', party : 'Sinn Féin' }),
 		(c007:Candidate { name : "Paddy O'Rourke",				age : '61', elected : 'No', gender : 'Male',   constituency : 'Sligo-Leitrim', party : 'Fianna Fáil' }),
@@ -23,6 +23,15 @@ CREATE 	(c001:Candidate { name : 'Martin Kenny',				age : '46', elected : 'Yes',
 		
 		
 MATCH (a:Candidate),(b:Party)
-WHERE a.constituency = "Sligo-Leitrim" AND a.party = 'AAA-PBP' AND b.name = 'Anti-Austerity Alliance–People Before Profit'
+WHERE a.constituency = "Sligo-Leitrim" AND a.party = 'Labour' AND b.name = 'Labour'
 CREATE (a)-[r:Belongs_to]->(b)
 RETURN r
+
+
+
+//Done
+AAA-PBP
+Fine Gael
+Independent
+Green Party
+Renua Ireland
