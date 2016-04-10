@@ -7,6 +7,10 @@ This project involves creating a graph database with Neo4J and populating it wit
 The purpose of the project is to create 3 queries that finds specific information based on the data that is in the database.
 The data for the database was found and inserted into the database soley by me, references to where the data was procured and where information on Neo4J queries was obtained can be found below under the references section.
 
+## Git/GitHub Details
+Initial set up was done on master branch. A branch called 'Relationships' was then created but changes to data needed to be made so 
+another new branch called 'relationships' was created with the new updated format for nodes. This branch is where most of the work was done and most of the commits were pushed to. 
+
 
 ## Database Details
 * Number of nodes: 608
